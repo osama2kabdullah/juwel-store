@@ -1,0 +1,50 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "disabled": true,
+      "custom_css": [
+        "h2 {color: #ffffff;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "show_blog_title": true,
+        "show_rss_feed": false,
+        "show_tags": true,
+        "posts_per_page": 24,
+        "feature_first_blog_post": true,
+        "featured_blog_post_color_scheme": "",
+        "show_category": true,
+        "show_date": true,
+        "show_excerpt": true,
+        "show_read_more": true
+      }
+    },
+    "blog_posts_zXQQLG": {
+      "type": "blog-posts",
+      "custom_css": [
+        "h2 {color: #FFFFFF;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": true,
+        "blog": "neuer-blog-test",
+        "posts_count": 9,
+        "stack_on_mobile": false,
+        "show_category": true,
+        "show_date": false,
+        "show_excerpt": true,
+        "show_read_more": true,
+        "subheading": "",
+        "title": "Wissenswertes",
+        "content": "",
+        "button_link": "",
+        "button_text": "View all"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "blog_posts_zXQQLG"
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_wCt6bM": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_p9UJHa": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h4"
+          }
+        },
+        "richtext_mMD74a": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_p9UJHa",
+        "richtext_mMD74a"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "image_size": "md",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "multi_column_tFCkmU": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_KqAUrH": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "heading_tag": "h3",
+            "content": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_KqAUrH"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "columns_per_row": 2,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "",
+        "title": "Jede Idee beginnt mit einem zündenden Funken",
+        "content": ""
+      }
+    },
+    "multi_column_Ygkzam": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_mD9UBH": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bild_mit_Text_1080_x_1080_px_1_fa25c584-7cf5-40e2-905b-7dc078fd9a08.png",
+            "title": "Überschrift",
+            "heading_tag": "h3",
+            "content": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_YKcTxQ": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bild_mit_Text_1080_x_1080_px_1_fa25c584-7cf5-40e2-905b-7dc078fd9a08.png",
+            "title": "Überschrift",
+            "heading_tag": "h3",
+            "content": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_mD9UBH",
+        "image_with_text_YKcTxQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "columns_per_row": 2,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "featured_collections_fBC4QR": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_BdHn6D": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "products_count": 8,
+            "title": "Headline Sortiment Haushalt",
+            "link_url": "",
+            "link_text": "Zum Sortiment"
+          }
+        }
+      },
+      "block_order": [
+        "collection_BdHn6D"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "tabs_b7MQVD": {
+      "type": "tabs",
+      "blocks": {
+        "tab_faBkET": {
+          "type": "tab",
+          "settings": {
+            "title": "Online-Shop AT",
+            "content": "<h4>A. AGB FÜR ÖSTERREICH | <a href=\"https:\/\/www.juwel.com\/fileadmin\/Bilder\/diverse_bilder\/AGB\/JUWEL_Oesterreich_AGB.pdf\" target=\"_blank\" title=\"Leitet Herunterladen der Datei ein\">DOWNLOAD<\/a><br\/> <\/h4><p>B. DATENSCHUTZERKLÄRUNG<br\/><br\/> <\/p><p>A. ALLGEMEINE GESCHÄFTSBEDINGUNGEN <br\/>für den Einkauf im Webshop von JUWEL Garten & Haushalt <br\/> <\/p><p>1. Geltungsbereich<\/p><p>Diese Allgemeinen Geschäftsbedingungen regeln die Bedingungen für den Einkauf im Webshop von JUWEL Garten & Haushalt. Kunden mit Anschrift in anderen Staaten als Deutschland und Österreich können derzeit leider nicht in unserem Webshop einkaufen.<br\/> <\/p><p>2. Vertragspartner<\/p><p>Der Kaufvertrag wird zwischen dem Kunden und der <\/p><p>JUWEL H. Wüster GmbH <\/p><p>Industriezone 19 <\/p><p>6460 Imst<\/p><p>gesetzlicher Vertreter: Ing. Heinrich Wüster (Geschäftsführer) | Irene Wüster (Geschäftsführer)<\/p><p>Firmenbuchnummer: 43364x, Landesgericht Innsbruck<\/p><p>Registernummer: fn42954v<\/p><p>geschlossen.<br\/> <\/p><p>3. Preisangaben<\/p><p>Alle in unserem Webshop angegebenen Preise sind Bruttopreise, enthalten also bereits die gesetzliche Umsatzsteuer. Die Preise verstehen sich zzgl. Verpackungs- und Versandkosten, die – soweit sie dem Kunden in Rechnung gestellt werden – jeweils vor Absenden der Bestellung angezeigt werden. Im Endpreis, der im Kassenbereich angegeben wird, sind sowohl die gesetzliche Umsatzsteuer als auch etwaige Verpackungs- und Versandkosten enthalten.<br\/> <\/p><p>4. Zustandekommen des Kaufvertrags <\/p><p>Alle Warenpräsentationen in unserem Webshop stellen noch kein Angebot zum Abschluss eines Kaufvertrags, sondern lediglich eine Einladung zur Abgabe eines solchen Angebots durch den Kunden dar. In der Bestellung von Waren im Webshop ist ein bindendes Kaufangebot des Kunden zu sehen. Auf Basis dieses Angebots kommt ein Kaufvertrag erst mit Zugang einer Annahmeerklärung (etwa in Form einer Auftragsbestätigung) durch JUWEL beim Kunden zu Stande.<br\/> <\/p><p>5. Leistungsfristen; Rücktrittsvorbehalt bei Nichtverfügbarkeit der Ware<br\/> <\/p><p>5.1.   JUWEL ist bemüht, die Bestellung so schnell wie möglich, spätestens jedoch innerhalb von zwei Wochen ab Vertragsschluss auszuführen. Sollte eine bestellte Ware im Einzelfall wider Erwarten nicht verfügbar sein, steht JUWEL das Recht zu, sich durch Rücktrittserklärung gegenüber dem Kunden von der Leistungspflicht zu lösen. JUWEL ist in diesem Fall verpflichtet, den Kunden unverzüglich über die Nichtverfügbarkeit zu informieren und etwaig bereits erhaltene Gegenleistungen unverzüglich an den Kunden zu erstatten.<br\/><br\/> <\/p><p>6. Eigentumsvorbehalt<\/p><p>JUWEL behält sich bis zur vollständigen Kaufpreiszahlung in Höhe der gesamten betreffenden Rechnung das Eigentum an sämtlichen im Rahmen eines einheitlichen Bestellvorgangs im Webshop gekauften und in einer einheitlichen Rechnung fakturierten Waren vor.<br\/> <\/p><p>7. Rücktrittsrecht bei Verträgen mit Konsumenten<br\/> <\/p><p>7.1.   Dem Konsumenten steht Rücktrittsrecht gem. § 5e KschG zu, wenn er als Konsument im Sinne des KschG Waren im Webshop bestellt. Ist der Kunde dagegen kein Konsument, steht ihm ein Rücktrittsrecht auch dann nicht zu, wenn er von JUWEL eine Rücktrittsbelehrung erhalten hat.<br\/> <\/p><p>7.2.   Im Falle eines Rücktrittes ist der Kunde zum Wertersatz für eine eingetretene Verschlechterung der Ware verpflichtet, wenn diese Verschlechterung durch die bestimmungsgemäße Gebrauchnahme der Ware eingetreten ist. Der Kunde ist darüberhinaus zum Ersatz aller Schäden verpflichtet, die auf den unsachgemäßen Gebrauch und fahrlässige oder vorsätzliche Beschädigung zurückzuführen sind.<br\/> <\/p><p>7.3.   Der Kunde ist im Falle des Widerrufs verpflichtet, die Ware an JUWEL zurückzusenden, wenn diese versandfähig ist. Die Kosten der Rücksendung trägt der Kunde, wenn der Kaufpreis der Ware einen Betrag von 40,00 Euro nicht übersteigt oder wenn bei einem höheren Preis der Ware der Kunde zum Zeitpunkt des Rücktrittes noch nicht den Kaufpreis oder eine etwaig vertraglich vereinbarte Teilzahlung erbracht hat. Der Kunde hat jedoch in keinem Fall die Kosten der Rücksendung zu tragen, wenn die gelieferte Ware nicht der bestellten entspricht.<br\/> <\/p><p>7.4.   Rücktrittsbelehrung:<br\/><strong> <\/strong><\/p><p>Rücktrittsrecht<br\/> <\/p><p>Sie können ohne Angabe von Gründen binnen der Rücktrittsfrist von 10 Werktagen, wobei der Samstag nicht als Werktag gilt, von dem mit JUWEL geschlossenen Vertrag zurücktreten. Die Rücktrittserklärung hat schriftlich zu erfolgen und ist innerhalb der angegebenen Frist abzusenden. Die Frist beginnt nach Erhalt dieser Belehrung in Textform jedoch nicht vor Eingang der Ware beim Empfänger (bei wiederkehrenden Lieferungen gleichartiger Waren nicht vor Eingang der ersten Teillieferung). Der Rücktritt ist zu richten an: <\/p><p>Juwel H. Wüster GmbH<\/p><p>Industriezone 19 <\/p><p>6460 Imst<\/p><p>Email: service@juwel.com<\/p><p>Fax: 05412\/ 68153 <br\/> <\/p><p>Rücktrittsfolgen <br\/> <\/p><p>Im Falle eines wirksamen Rücktrittes sind die beiderseits empfangenen Leistungen zurückzustellen und ggf. gezogene Nutzungen (z.B. Zinsen) herauszugeben. Können die empfangenen Leistungen nicht mehr ganz oder teilweise bzw. nur in verschlechtertem Zustand zurück gegeben werden, muss hierfür Wertersatz geleistet werden. Bei Überlassung von Sachen gilt dies nicht, wenn die Verschlechterung der Sache ausschließlich auf deren Prüfung – wie sie Ihnen etwa im Ladengeschäft möglich gewesen wäre – zurückzuführen ist. Im Übrigen können sie die Pflicht zum Wertersatz für eine durch die bestimmungsgemäße Ingebrauchnahme der Sache entstandene Verschlechterung der Sache vermeiden, indem Sie die Sache nicht wie Ihr Eigentum in Gebrauch nehmen und alles unterlassen, was deren Wert beeinträchtigt.<\/p><p>Paketversandfähige Sachen sind auf unsere Gefahr zurückzusenden. Sie haben die Kosten der Rücksendung zu tragen, wenn die gelieferte Ware der bestellten entspricht und wenn der Preis der zurückzusendenden Sache einen Betrag von 40,00 Euro nicht übersteigt oder wenn Sie bei einem höheren Preis der Sache zum Zeitpunkt des Widerrufs noch nicht die Gegenleistung oder eine vertraglich vereinbarte Teilzahlung erbracht haben. Anderenfalls ist die Rücksendung für Sie kostenfrei. Nicht paketversandfähige Sachen werden bei Ihnen abgeholt. Verpflichtungen zur Erstattung von Zahlungen müssen innerhalb von 30 Tagen erfüllt werden. Die Frist beginnt für Sie mit der Absendung Ihrer Widerrufserklärung oder der Sache, für uns mit deren Empfang. <br\/> <\/p><p>Ende der Widerrufsbelehrung<br\/> <\/p><p>8. Haftungsausschlüsse und -begrenzungen<br\/> <\/p><p>8.1.   JUWEL haftet nicht für aufgrund von leichter Fahrlässigkeit von JUWEL, seiner gesetzlichen Vertreter, Angestellten, Mitarbeiter, Beauftragten, Besorgungs- oder Erfüllungsgehilfen verursachte Schäden (einschließlich Aufwendungen) des Kunden. Dies gilt nicht für Ansprüche wegen Verletzung von Leib und Leben oder Gesundheit, für Ansprüche aus dem Produkthaftungsgesetz und für die Verletzung von vertragswesentlichen Pflichten, deren Erfüllung die ordnungsgemäße Durchführung des Vertrages erst ermöglicht und auf deren Erfüllung der Kunde daher regelmäßig vertrauen darf (Nebenpflichten).<br\/><strong> <\/strong><\/p><p>8.2.   Im Fall der leicht fahrlässigen Verletzung von Nebenpflichten durch JUWEL, seiner gesetzlichen Vertreter, Angestellten, Mitarbeiter, Beauftragten, Besorgungs- oder Erfüllungsgehilfen ist die Haftung von JUWEL für sämtliche vertraglichen, außervertraglichen und sonstigen Schadens- und Aufwendungsersatzansprüche, ohne Rücksicht auf ihre Rechtsnatur, begrenzt auf vertragstypische, vorhersehbare Schäden, die einen Betrag von Euro 20.000,00 (in Worten: Euro zwanzigtausend) pro Schadensfall und einen Betrag von Euro 100.000,00 (in Worten: Euro einhunderttausend) pro Kalenderjahr bei ein und demselben Kunden nicht überschreiten.<br\/><strong> <\/strong><\/p><p>8.3.   Soweit zu Gunsten von JUWEL ein Haftungsausschluss oder eine Haftungsbegrenzung nach dieser Ziff. 8. besteht, gilt dieser Haftungsausschluss oder diese Haftungsbegrenzung auch für etwaige Ansprüche des Kunden gegen die gesetzlichen Vertreter, Angestellten, Mitarbeiter, Beauftragten, Erfüllungs- und Besorgungsgehilfen von JUWEL aus demselben Haftungsgrund.<br\/><strong> <\/strong><\/p><p>9. Schlussbestimmungen<br\/> <\/p><p>9.1.   Der Vertrag unterliegt ausschließlich österreichischem Recht unter Ausschluss des UN Kaufrechtes. Sofern nicht ein Gerichtsstand im Sinne des § 14 KschG (Verbrauchergerichtsstand) zur Anwendung kommt, gilt bei allen Rechtsstreitigkeiten das sachliche und örtliche Gericht am Sitz der JUWEL H. Wüster GmbH als vereinbart.<br\/> <\/p><p>9.2.   Sollte eine der Bestimmungen dieser Allgemeinen Geschäftsbedingungen unwirksam sein, wird die Wirksamkeit der übrigen Bestimmungen davon nicht berührt. Die Parteien verpflichten sich für diesen Fall, eine wirksame Vereinbarung zu treffen, die der unwirksamen Bestimmung wirtschaftlich möglichst nahe kommt (Salvatorische Klausel) <\/p>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        },
+        "tab_R66pyU": {
+          "type": "tab",
+          "settings": {
+            "title": "Online-Shop DE",
+            "content": "<h4>A. AGB FÜR ÖSTERREICH | <a href=\"https:\/\/www.juwel.com\/fileadmin\/Bilder\/diverse_bilder\/AGB\/JUWEL_Oesterreich_AGB.pdf\" target=\"_blank\" title=\"Leitet Herunterladen der Datei ein\">DOWNLOAD<\/a><br\/> <\/h4><p>B. DATENSCHUTZERKLÄRUNG<br\/><br\/> <\/p><p>A. ALLGEMEINE GESCHÄFTSBEDINGUNGEN <br\/>für den Einkauf im Webshop von JUWEL Garten & Haushalt <br\/> <\/p><p>1. Geltungsbereich<\/p><p>Diese Allgemeinen Geschäftsbedingungen regeln die Bedingungen für den Einkauf im Webshop von JUWEL Garten & Haushalt. Kunden mit Anschrift in anderen Staaten als Deutschland und Österreich können derzeit leider nicht in unserem Webshop einkaufen.<br\/> <\/p><p>2. Vertragspartner<\/p><p>Der Kaufvertrag wird zwischen dem Kunden und der <\/p><p>JUWEL H. Wüster GmbH <\/p><p>Industriezone 19 <\/p><p>6460 Imst<\/p><p>gesetzlicher Vertreter: Ing. Heinrich Wüster (Geschäftsführer) | Irene Wüster (Geschäftsführer)<\/p><p>Firmenbuchnummer: 43364x, Landesgericht Innsbruck<\/p><p>Registernummer: fn42954v<\/p><p>geschlossen.<br\/> <\/p><p>3. Preisangaben<\/p><p>Alle in unserem Webshop angegebenen Preise sind Bruttopreise, enthalten also bereits die gesetzliche Umsatzsteuer. Die Preise verstehen sich zzgl. Verpackungs- und Versandkosten, die – soweit sie dem Kunden in Rechnung gestellt werden – jeweils vor Absenden der Bestellung angezeigt werden. Im Endpreis, der im Kassenbereich angegeben wird, sind sowohl die gesetzliche Umsatzsteuer als auch etwaige Verpackungs- und Versandkosten enthalten.<br\/> <\/p><p>4. Zustandekommen des Kaufvertrags <\/p><p>Alle Warenpräsentationen in unserem Webshop stellen noch kein Angebot zum Abschluss eines Kaufvertrags, sondern lediglich eine Einladung zur Abgabe eines solchen Angebots durch den Kunden dar. In der Bestellung von Waren im Webshop ist ein bindendes Kaufangebot des Kunden zu sehen. Auf Basis dieses Angebots kommt ein Kaufvertrag erst mit Zugang einer Annahmeerklärung (etwa in Form einer Auftragsbestätigung) durch JUWEL beim Kunden zu Stande.<br\/> <\/p><p>5. Leistungsfristen; Rücktrittsvorbehalt bei Nichtverfügbarkeit der Ware<br\/> <\/p><p>5.1.   JUWEL ist bemüht, die Bestellung so schnell wie möglich, spätestens jedoch innerhalb von zwei Wochen ab Vertragsschluss auszuführen. Sollte eine bestellte Ware im Einzelfall wider Erwarten nicht verfügbar sein, steht JUWEL das Recht zu, sich durch Rücktrittserklärung gegenüber dem Kunden von der Leistungspflicht zu lösen. JUWEL ist in diesem Fall verpflichtet, den Kunden unverzüglich über die Nichtverfügbarkeit zu informieren und etwaig bereits erhaltene Gegenleistungen unverzüglich an den Kunden zu erstatten.<br\/><br\/> <\/p><p>6. Eigentumsvorbehalt<\/p><p>JUWEL behält sich bis zur vollständigen Kaufpreiszahlung in Höhe der gesamten betreffenden Rechnung das Eigentum an sämtlichen im Rahmen eines einheitlichen Bestellvorgangs im Webshop gekauften und in einer einheitlichen Rechnung fakturierten Waren vor.<br\/> <\/p><p>7. Rücktrittsrecht bei Verträgen mit Konsumenten<br\/> <\/p><p>7.1.   Dem Konsumenten steht Rücktrittsrecht gem. § 5e KschG zu, wenn er als Konsument im Sinne des KschG Waren im Webshop bestellt. Ist der Kunde dagegen kein Konsument, steht ihm ein Rücktrittsrecht auch dann nicht zu, wenn er von JUWEL eine Rücktrittsbelehrung erhalten hat.<br\/> <\/p><p>7.2.   Im Falle eines Rücktrittes ist der Kunde zum Wertersatz für eine eingetretene Verschlechterung der Ware verpflichtet, wenn diese Verschlechterung durch die bestimmungsgemäße Gebrauchnahme der Ware eingetreten ist. Der Kunde ist darüberhinaus zum Ersatz aller Schäden verpflichtet, die auf den unsachgemäßen Gebrauch und fahrlässige oder vorsätzliche Beschädigung zurückzuführen sind.<br\/> <\/p><p>7.3.   Der Kunde ist im Falle des Widerrufs verpflichtet, die Ware an JUWEL zurückzusenden, wenn diese versandfähig ist. Die Kosten der Rücksendung trägt der Kunde, wenn der Kaufpreis der Ware einen Betrag von 40,00 Euro nicht übersteigt oder wenn bei einem höheren Preis der Ware der Kunde zum Zeitpunkt des Rücktrittes noch nicht den Kaufpreis oder eine etwaig vertraglich vereinbarte Teilzahlung erbracht hat. Der Kunde hat jedoch in keinem Fall die Kosten der Rücksendung zu tragen, wenn die gelieferte Ware nicht der bestellten entspricht.<br\/> <\/p><p>7.4.   Rücktrittsbelehrung:<br\/><strong> <\/strong><\/p><p>Rücktrittsrecht<br\/> <\/p><p>Sie können ohne Angabe von Gründen binnen der Rücktrittsfrist von 10 Werktagen, wobei der Samstag nicht als Werktag gilt, von dem mit JUWEL geschlossenen Vertrag zurücktreten. Die Rücktrittserklärung hat schriftlich zu erfolgen und ist innerhalb der angegebenen Frist abzusenden. Die Frist beginnt nach Erhalt dieser Belehrung in Textform jedoch nicht vor Eingang der Ware beim Empfänger (bei wiederkehrenden Lieferungen gleichartiger Waren nicht vor Eingang der ersten Teillieferung). Der Rücktritt ist zu richten an: <\/p><p>Juwel H. Wüster GmbH<\/p><p>Industriezone 19 <\/p><p>6460 Imst<\/p><p>Email: service@juwel.com<\/p><p>Fax: 05412\/ 68153 <br\/> <\/p><p>Rücktrittsfolgen <br\/> <\/p><p>Im Falle eines wirksamen Rücktrittes sind die beiderseits empfangenen Leistungen zurückzustellen und ggf. gezogene Nutzungen (z.B. Zinsen) herauszugeben. Können die empfangenen Leistungen nicht mehr ganz oder teilweise bzw. nur in verschlechtertem Zustand zurück gegeben werden, muss hierfür Wertersatz geleistet werden. Bei Überlassung von Sachen gilt dies nicht, wenn die Verschlechterung der Sache ausschließlich auf deren Prüfung – wie sie Ihnen etwa im Ladengeschäft möglich gewesen wäre – zurückzuführen ist. Im Übrigen können sie die Pflicht zum Wertersatz für eine durch die bestimmungsgemäße Ingebrauchnahme der Sache entstandene Verschlechterung der Sache vermeiden, indem Sie die Sache nicht wie Ihr Eigentum in Gebrauch nehmen und alles unterlassen, was deren Wert beeinträchtigt.<\/p><p>Paketversandfähige Sachen sind auf unsere Gefahr zurückzusenden. Sie haben die Kosten der Rücksendung zu tragen, wenn die gelieferte Ware der bestellten entspricht und wenn der Preis der zurückzusendenden Sache einen Betrag von 40,00 Euro nicht übersteigt oder wenn Sie bei einem höheren Preis der Sache zum Zeitpunkt des Widerrufs noch nicht die Gegenleistung oder eine vertraglich vereinbarte Teilzahlung erbracht haben. Anderenfalls ist die Rücksendung für Sie kostenfrei. Nicht paketversandfähige Sachen werden bei Ihnen abgeholt. Verpflichtungen zur Erstattung von Zahlungen müssen innerhalb von 30 Tagen erfüllt werden. Die Frist beginnt für Sie mit der Absendung Ihrer Widerrufserklärung oder der Sache, für uns mit deren Empfang. <br\/> <\/p><p>Ende der Widerrufsbelehrung<br\/> <\/p><p>8. Haftungsausschlüsse und -begrenzungen<br\/> <\/p><p>8.1.   JUWEL haftet nicht für aufgrund von leichter Fahrlässigkeit von JUWEL, seiner gesetzlichen Vertreter, Angestellten, Mitarbeiter, Beauftragten, Besorgungs- oder Erfüllungsgehilfen verursachte Schäden (einschließlich Aufwendungen) des Kunden. Dies gilt nicht für Ansprüche wegen Verletzung von Leib und Leben oder Gesundheit, für Ansprüche aus dem Produkthaftungsgesetz und für die Verletzung von vertragswesentlichen Pflichten, deren Erfüllung die ordnungsgemäße Durchführung des Vertrages erst ermöglicht und auf deren Erfüllung der Kunde daher regelmäßig vertrauen darf (Nebenpflichten).<br\/><strong> <\/strong><\/p><p>8.2.   Im Fall der leicht fahrlässigen Verletzung von Nebenpflichten durch JUWEL, seiner gesetzlichen Vertreter, Angestellten, Mitarbeiter, Beauftragten, Besorgungs- oder Erfüllungsgehilfen ist die Haftung von JUWEL für sämtliche vertraglichen, außervertraglichen und sonstigen Schadens- und Aufwendungsersatzansprüche, ohne Rücksicht auf ihre Rechtsnatur, begrenzt auf vertragstypische, vorhersehbare Schäden, die einen Betrag von Euro 20.000,00 (in Worten: Euro zwanzigtausend) pro Schadensfall und einen Betrag von Euro 100.000,00 (in Worten: Euro einhunderttausend) pro Kalenderjahr bei ein und demselben Kunden nicht überschreiten.<br\/><strong> <\/strong><\/p><p>8.3.   Soweit zu Gunsten von JUWEL ein Haftungsausschluss oder eine Haftungsbegrenzung nach dieser Ziff. 8. besteht, gilt dieser Haftungsausschluss oder diese Haftungsbegrenzung auch für etwaige Ansprüche des Kunden gegen die gesetzlichen Vertreter, Angestellten, Mitarbeiter, Beauftragten, Erfüllungs- und Besorgungsgehilfen von JUWEL aus demselben Haftungsgrund.<br\/><strong> <\/strong><\/p><p>9. Schlussbestimmungen<br\/> <\/p><p>9.1.   Der Vertrag unterliegt ausschließlich österreichischem Recht unter Ausschluss des UN Kaufrechtes. Sofern nicht ein Gerichtsstand im Sinne des § 14 KschG (Verbrauchergerichtsstand) zur Anwendung kommt, gilt bei allen Rechtsstreitigkeiten das sachliche und örtliche Gericht am Sitz der JUWEL H. Wüster GmbH als vereinbart.<br\/> <\/p><p>9.2.   Sollte eine der Bestimmungen dieser Allgemeinen Geschäftsbedingungen unwirksam sein, wird die Wirksamkeit der übrigen Bestimmungen davon nicht berührt. Die Parteien verpflichten sich für diesen Fall, eine wirksame Vereinbarung zu treffen, die der unwirksamen Bestimmung wirtschaftlich möglichst nahe kommt (Salvatorische Klausel) <\/p>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        },
+        "tab_jy634f": {
+          "type": "tab",
+          "settings": {
+            "title": "Einkaufs- und Lieferbedingungen",
+            "content": "<p>Verkaufs- und Lieferbedingungen<\/p><p>1. Allgemeines<\/p><p>Die nachstehenden Bedingungen gelten<br\/>für alle Geschäfte, soweit nicht die Vertragsparteien ausdrücklich und<br\/>schriftlich Abweichendes vereinbart haben. Anderslautende Einkaufsbedingungen<br\/>gelten auch dann nicht, wenn diesen vom Verkäufer nicht ausdrücklich<br\/>widersprochen wird.<\/p><p>2. Angebote und Verkäufe<\/p><p>Alle Angebote und Vereinbarungen<br\/>einschließlich Nebenabreden, sind freibleibend und unverbindlich bis zur<br\/>schriftlichen Bestätigung. Alle Verkäufe und Abschlüsse, seien sie durch uns<br\/>oder unseren Vertreter, gelten erst mit unserer schriftlichen Auftragsbestätigung<br\/>als verbindlich.<\/p><p>Abmessungen, Gewichte und Abbildungen<br\/>in Angeboten, Preislisten und Prospekten sind annähernd und für den Lieferer<br\/>unverbindlich.<\/p><p>3. Preise<\/p><p>Soweit vom Verkäufer nicht ausdrücklich<br\/>anders bestätigt, gelten alle Preise ab Werk oder Auslieferungslager,<br\/>unverpackt. Die Preise basieren auf den am Tage des Angebotes oder der<br\/>Auftragsbestätigung gegebenen Kosten. Sollten sich die Kosten bis zum Zeitpunkt<br\/>der Lieferung (Verkaufsabrechnung bei Kommissionsgeschäften) verändern, so<br\/>gehen diese Veränderungen zu Gunsten bzw. zu Lasten des Käufers.<\/p><p>4. Lieferzeit<\/p><p>Die Lieferfrist beginnt mit dem Tag der<br\/>endgültigen Auftragsbestätigung, jedoch nicht vor Klarstellung sämtlicher<br\/>Einzelheiten des Auftrages. Sie ist so bestimmt, dass sie bei regelmäßigen Gang<br\/>der Fertigung mit Wahrscheinlichkeit eingehalten werden kann.<\/p><p>Der Verkäufer ist berechtigt, Teil-<br\/>oder Vorlieferungen durchzuführen. Bei Lieferverzug des Verkäufers ist der<br\/>Käufer berechtigt, dem Verkäufer eine angemessene Nachfrist zu setzen. Ein<br\/>Rücktritt vom Vertrag seitens des Käufers ist nur zulässig nach vorheriger<br\/>angemessener Nachfristsetzung und Androhung des Rücktritts.<\/p><p>Fälle höherer Gewalt und unabwendbare<br\/>Ereignisse entbinden den Verkäufer, auch bei etwa verbindlich vereinbarten<br\/>Lieferfristen, von deren Einhaltung und berechtigen ihn, vom Vertrag ganz oder<br\/>teilweise zurückzutreten. Ansprüche auf Schadenersatz wegen Nichterfüllung oder<br\/>verspäteter Erfüllung sind ausgeschlossen.<\/p><p>5. Versand, Verpackung,<br\/>Gefahrenübergang und Mängelrüge<\/p><p>Die Beförderung der Ware ab Werk (oder<br\/>Auslieferungslager) des Lieferers erfolgt stets auf Gefahr des Käufers, auch<br\/>dann, wenn frachtfrei, fob oder cif verkauft wird.<\/p><p>Verpackung wird zum Selbstkostenpreis<br\/>verrechnet und nicht zurückgenommen.<\/p><p>Mängelrügen sind unverzüglich,<br\/>spätestens jedoch innerhalb einer Woche nach Eingang der Ware am Bestimmungsort<br\/>ausschließlich schriftlich eingeschrieben geltend zu machen. Bei begründeten<br\/>Mängelrügen übernimmt der Verkäufer nach seiner Wahl die Verpflichtung zur<br\/>kosten­losen Ersatzbeschaffung oder zum Ersatz des Minderwertes. Weiter­gehende<br\/>Ersatzansprüche jeglicher Art sind ausgeschlossen.<\/p><p>6. Gewährleistung<\/p><p>Die Gewährleistungsansprüche des<br\/>Käufers richten sich nach den gesetzlichen Regelungen. Eine Verlängerung der<br\/>Gewährleistungsfrist tritt durch Mängelbehebung nicht ein.<\/p><p>7. Eigentumsvorbehalt und Zahlung:<\/p><p>Die von uns gelieferten Waren bleiben<br\/>bis zur vollständigen Bezahlung sämtlicher Forderungen, also auch aus<br\/>vorhergehenden Lieferungen, gemäß § 455 BGB ff unser Eigentum. Dies gilt auch<br\/>dann, wenn der Kaufpreis für bestimmte vom Besteller bezeichnete Warenlieferungen<br\/>bezahlt  ist.<\/p><p>Der Besteller ist dann nicht zur<br\/>Weiterveräußerung der von uns unter Eigentumsvorbehalt gelieferten Waren<br\/>berechtigt, wenn er einer Vertragsbedingung seines Abnehmers zustimmt,<br\/>derzufolge Kaufpreis­forderungen gegen seinen Abnehmer nicht abgetreten werden<br\/>dürfen.<\/p><p>Der Besteller bleibt jedoch berechtigt,<br\/>die an uns abgetretenen Forderungen einzuziehen, solange er seinen<br\/>Zahlungsverpflichtungen uns gegenüber ordnungsgemäß nachkommt. Der Besteller<br\/>ist verpflichtet, uns auf unser Verlangen die Schuldner der an uns abgetretenen<br\/>Forderungen und deren Betrag mitzuteilen und den Schuldnern die Abtretung<br\/>anzuzeigen.<\/p><p>Eine Verarbeitung oder Umbildung der<br\/>Kaufsache durch den Käufer oder einen Dritten wird stets für die JUWEL H.<br\/>Wüster GmbH vorgenommen. Wird die Kaufsache mit anderen, nicht im Eigentum der<br\/>JUWEL H. Wüster GmbH stehender Gegenstände verarbeitet, so erwirbt die JUWEL H.<br\/>Wüster GmbH das Miteigentum an der neuen Sache im Verhältnis des Wertes der<br\/>Kaufsache zu den anderen verarbeiteten Gegenständen zur Zeit der Verarbeitung.<\/p><p>Wird die Kaufsache mit anderen, nicht<br\/>im Eigentum der JUWEL H. Wüster GmbH stehenden Gegenständen vermischt, so<br\/>erwirbt die JUWEL H. Wüster GmbH das Miteigentum an der neuen Sache im<br\/>Verhältnis des Wertes der Kaufsache zu der anderen vermischten Sache zum<br\/>Zeitpunkt der Vermischung. Ist die Sache des Bestellers als Hauptsache<br\/>anzusehen, so hat der Besteller der JUWEL H. Wüster GmbH anteilsmäßig<br\/>Miteigentum zu übertragen.<\/p><p>Auf Verlangen des Bestellers<br\/>verpflichten wir uns, die uns hiernach zustehenden Sicherheiten nach unserer<br\/>Wahl freizugeben, soweit ihr realisierbarer Wert die zu sichernden Forderungen<br\/>um 20% übersteigt.<\/p><p>Wir sind berechtigt, im Falle der nicht<br\/>rechtzeitigen Zahlung einer Kaufpreisrate vom Liefervertrag zurückzutreten,<br\/>ohne dass es einer Fristsetzung bedarf. Nach Erklärung des Rücktritts sind wir<br\/>berechtigt, die von uns unter Eigentumsvorbehalt gelieferten Waren in eigenen<br\/>Besitz zu nehmen und aus den Geschäftsräumen des Bestellers zu entfernen,<br\/>soweit der Besteller die Zahlung nicht leisten kann. In der Zurücknahme sowie<br\/>in der Pfändung der Vorbehaltssache liegt ein Rücktritt vom Vertrag.<\/p><p>Der Besteller gewährt uns oder unseren<br\/>Beauftragten während der Geschäftsstunden Zutritt zu seinen sämtlichen<br\/>Geschäftsräumen, um überprüfen zu können, ob die noch unter Eigentumsvorbehalt<br\/>stehende Ware vorhanden ist. <\/p><p>8. Erfüllungsort und Gerichtsstand<\/p><p>Erfüllungsort ist der Sitz des<br\/>Verkäufers, auch dann, wenn die Übergabe vereinbarungsgemäß an einem anderen<br\/>Ort erfolgt.<\/p><p>Ausschließlich Gerichtsstand aller<br\/>Rechtsstreitigkeiten aus Lieferverträgen sind die für den Sitz des Verkäufers<br\/>zuständigen ordentlichen Gerichte.<\/p><p> <\/p>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "tab_faBkET",
+        "tab_R66pyU",
+        "tab_jy634f"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "AGB \/\/ Einkaufs- und Lieferbedingungen",
+        "text_alignment": "center"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_wCt6bM",
+    "multi_column_tFCkmU",
+    "multi_column_Ygkzam",
+    "featured_collections_fBC4QR",
+    "tabs_b7MQVD"
+  ]
+}

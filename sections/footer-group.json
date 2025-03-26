@@ -1,0 +1,155 @@
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
+        "links_mRKNCd": {
+          "type": "links",
+          "settings": {
+            "menu": "info",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "title": "About",
+            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>",
+            "enable_follow_on_shop": false
+          }
+        },
+        "image_GCpDPm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JUWEL_logo_rgb_color_negativ.png",
+            "image_width": 200,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "links",
+        "links_mRKNCd",
+        "text",
+        "image_GCpDPm"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": false,
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_country_selector": true,
+        "show_country_name": true,
+        "show_country_flag": true,
+        "show_locale_selector": true
+      }
+    },
+    "multi_column_Kwe6My": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_bTYjCw": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "shopify:\/\/pages\/contact",
+            "link_text": "KONTAKT"
+          }
+        },
+        "image_with_text_EcbL4T": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "shopify:\/\/pages\/partnernetzwerk",
+            "link_text": "PARTNERNETZWERK"
+          }
+        },
+        "image_with_text_dBcGFH": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": "JOBS"
+          }
+        },
+        "image_with_text_kjYAb3": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": "DOWNLOADS"
+          }
+        },
+        "image_with_text_hYPLrY": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "shopify:\/\/pages\/agb",
+            "link_text": "RECHTLICHES"
+          }
+        },
+        "image_with_text_a9R4Ti": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": "IMPRESSUM"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_bTYjCw",
+        "image_with_text_EcbL4T",
+        "image_with_text_dBcGFH",
+        "image_with_text_kjYAb3",
+        "image_with_text_hYPLrY",
+        "image_with_text_a9R4Ti"
+      ],
+      "custom_css": [
+        ".h3 {font-size: 10pt;}",
+        "a {color: #055541;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "columns_per_row": 6,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "multi_column_Kwe6My"
+  ]
+}

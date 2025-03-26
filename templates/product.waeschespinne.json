@@ -1,0 +1,580 @@
+{
+  "sections": {
+    "custom-product-info": {
+      "type": "custom-product-info",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": true,
+            "show_below_gallery": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": true
+          }
+        },
+        "inventory_8iFwd9": {
+          "type": "inventory",
+          "settings": {
+            "show_in_stock_quantity": false,
+            "low_inventory_threshold": 0,
+            "show_progress_bar": true,
+            "progress_bar_max_value": 50
+          }
+        },
+        "separator_47NUkY": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "accordion_NnKLGP": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Maße & Optik",
+            "content": "",
+            "liquid": "",
+            "page": "awards"
+          }
+        },
+        "text_XUJ9JE": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Vorteile auf einen Blick:<\/h3>"
+          }
+        },
+        "text_rtaKjz": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><\/p>{{ product.metafields.custom.vorteile_neu | metafield_tag }}"
+          }
+        },
+        "text_RggfdA": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Abmessungen: {{ product.metafields.custom.abmessungen.value }}<\/p>"
+          }
+        },
+        "text_JGkpL6": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Garantie: {{ product.metafields.custom.garantie.value }}<\/p>"
+          }
+        },
+        "accordion_BiaeCt": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Erzatzteile",
+            "content": "<p>Share some content to your customers about your products.<\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "accordion_JpF966": {
+          "type": "accordion",
+          "disabled": true,
+          "source": "{{ metaobjects[\"shopify--color-pattern\"].grau }}",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "custom_icon": "{{ metaobjects[\"shopify--color-pattern\"].grau.image.value }}",
+            "title": "{{ metaobjects[\"shopify--color-pattern\"].grau.label.value }}",
+            "content": "",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "accordion_7Vc73k": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "",
+            "content": "",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "accordion_BWxPrT": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Montageanleitung",
+            "content": "",
+            "liquid": "Share some content to your customers about your products.",
+            "page": ""
+          }
+        },
+        "text_kqGnkw": {
+          "type": "text",
+          "settings": {
+            "text": "<h4><strong>Vorteile auf einen Blick<\/strong><\/h4>"
+          }
+        },
+        "accordion_yzpmxG": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Maße & Optik",
+            "content": "<p>{{ product.metafields.custom.abmessungen.value }}<\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "accordion_9tq9WW": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Zubehör",
+            "content": "<p>Share some content to your customers about your products.<\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "accordion_eicxqx": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Ersatzteile",
+            "content": "<p>Share some content to your customers about your products.<\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "accordion_n9NHgx": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Kombinierung",
+            "content": "<p>Share some content to your customers about your products.<\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "accordion_eA9WNy": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Garantie",
+            "content": "<p>{{ product.metafields.custom.garantie.value }}<\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "accordion_L3H776": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Montage",
+            "content": "",
+            "liquid": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "description",
+        "price",
+        "inventory_8iFwd9",
+        "separator_47NUkY",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "accordion_NnKLGP",
+        "text_XUJ9JE",
+        "text_rtaKjz",
+        "text_RggfdA",
+        "text_JGkpL6",
+        "accordion_BiaeCt",
+        "accordion_JpF966",
+        "accordion_7Vc73k",
+        "accordion_BWxPrT",
+        "text_kqGnkw",
+        "accordion_yzpmxG",
+        "accordion_9tq9WW",
+        "accordion_eicxqx",
+        "accordion_n9NHgx",
+        "accordion_eA9WNy",
+        "accordion_L3H776"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "container_size": "xl",
+        "product_info_size": 50,
+        "show_sticky_add_to_cart": true,
+        "center_basic_info": false,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
+      }
+    },
+    "logo_list_8FFzaY": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_4gBJ3Y": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_ChGfWi": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_tDMzyT": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_rcqk8G": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_QDF4Bn": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_4gBJ3Y",
+        "logo_ChGfWi",
+        "logo_tDMzyT",
+        "logo_rcqk8G",
+        "logo_QDF4Bn"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Logo list",
+        "stack_on_mobile": false,
+        "items_per_row": 5,
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "featured_collections_BWpm3F": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_AwhGzA": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "products_count": 8,
+            "title": "Zubehör",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_AwhGzA"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "testimonials_hAJDKj": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_GHpLct": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        },
+        "testimonial_AwxzVx": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        },
+        "testimonial_eabhGV": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_GHpLct",
+        "testimonial_AwxzVx",
+        "testimonial_eabhGV"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "auto_rotate_between_testimonials": false,
+        "cycle_speed": 5,
+        "font_size_factor": 1,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "images_with_text_scroll_ygzPtf": {
+      "type": "images-with-text-scroll",
+      "blocks": {
+        "image_with_text_HhwR36": {
+          "type": "image_with_text",
+          "settings": {
+            "subheading": "",
+            "title": "#1",
+            "content": "<p>Welcome your customers to your store by sharing temporary offers or explaining to them what your products are about.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_MyHgAG": {
+          "type": "image_with_text",
+          "settings": {
+            "subheading": "",
+            "title": "#2",
+            "content": "<p>Create trust with your customers by explaining the story of your brand. Share your values or what is important to you.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_qz3YFh": {
+          "type": "image_with_text",
+          "settings": {
+            "subheading": "",
+            "title": "#3",
+            "content": "<p>Share information about your product with your customers. Describe a product, and share info about your production process...<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_HhwR36",
+        "image_with_text_MyHgAG",
+        "image_with_text_qz3YFh"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "image_position": "start",
+        "text_alignment": "start",
+        "heading_tag": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "featured_collections_6Wb9at": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_PhJLHj": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "products_count": 8,
+            "title": "Ersatzteile",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_PhJLHj"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "faq_Urg4nG": {
+      "type": "faq",
+      "blocks": {
+        "category_WdfKfY": {
+          "type": "category",
+          "settings": {
+            "title": "Order",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_meQ6AF": {
+          "type": "question",
+          "settings": {
+            "question": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "question_rhb7Eg": {
+          "type": "question",
+          "settings": {
+            "question": "How long will it take to get my orders?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "question_VpypLX": {
+          "type": "question",
+          "settings": {
+            "question": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_WdfKfY",
+        "question_meQ6AF",
+        "question_rhb7Eg",
+        "question_VpypLX"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "Need help?",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
+    },
+    "related_products_FnNHQD": {
+      "type": "related-products",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 10,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "Ähnliche Produkte",
+        "content": ""
+      }
+    },
+    "blog_posts_Rkg3TG": {
+      "type": "blog-posts",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "blog": "neuer-blog-test",
+        "posts_count": 3,
+        "stack_on_mobile": false,
+        "show_category": true,
+        "show_date": false,
+        "show_excerpt": true,
+        "show_read_more": true,
+        "subheading": "",
+        "title": "Blog",
+        "content": "",
+        "button_link": "",
+        "button_text": ""
+      }
+    }
+  },
+  "order": [
+    "custom-product-info",
+    "main",
+    "logo_list_8FFzaY",
+    "featured_collections_BWpm3F",
+    "testimonials_hAJDKj",
+    "images_with_text_scroll_ygzPtf",
+    "featured_collections_6Wb9at",
+    "faq_Urg4nG",
+    "related_products_FnNHQD",
+    "blog_posts_Rkg3TG"
+  ]
+}

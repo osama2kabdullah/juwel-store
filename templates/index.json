@@ -1,0 +1,582 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hg_hh.jpg",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 35,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(0deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "image_gNnrDi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/header.jpg",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "slide-1",
+        "image_gNnrDi"
+      ],
+      "settings": {
+        "allow_transparent_header": false,
+        "show_next_section_button": true,
+        "media_size": "auto",
+        "show_initial_transition": false,
+        "autoplay": true,
+        "autoplay_pause_on_video": true,
+        "cycle_speed": 5,
+        "background": "#000000",
+        "controls_color": "#ffffff"
+      }
+    },
+    "multi_column_ePczAQ": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_TGJnUj": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "",
+            "heading_tag": "h2",
+            "content": "<h2><strong>JUWEL - Fürs Leben gedacht<\/strong><\/h2>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_iWhdqD": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "",
+            "heading_tag": "h3",
+            "content": "<p>Wahre Qualität kennt kein Verfallsdatum. Das wissen wir von JUWEL aus Erfahrung. Unsere Produkte sind mehr als nur Dinge für Garten und Haus - sie sind durchdachte, funktionale und langlebige Begleiter. Sie sind für Orte gedacht, in denen das Leben passiert - draußen im Garten sowie drinnen im Haus.<br\/>Wir sind Teil Ihrer Gewohnheiten, Ihrer To-do Liste, Ihrer Werte, Ihrer Hobbys, Ihrer Ernte, Ihrer gemeinsamen Momente beim Essen. Wir unterstützen bewusste Lebensstile und ermöglichen es, Träume wie den eigenen Gemüseanbau Wirklichkeit werden zu lassen. Wir geben Ihren Alltagsaufgaben weniger Aufwand, damit Sie Zeit für das Wesentliche haben: Ihre schönsten Erinnerungen zu Hause.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_TGJnUj",
+        "image_with_text_iWhdqD"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "columns_per_row": 2,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "multi_column_c9q6km": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_Mdkicz": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2014801.jpg",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_xCYNa7": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2020001.jpg",
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_Mdkicz",
+        "image_with_text_xCYNa7"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "columns_per_row": 2,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "multi_column_HiFacd": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_GPjPzy": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Für unverwechselbar gedacht",
+            "heading_tag": "h3",
+            "content": "<p>Bereits in dritter Generation lebt JUWEL die Werte von höchster Qualität, Nachhaltigkeit, Erfahrung und funktionaler<br\/>Raffinesse. Als Familienunternehmen, fest verwurzelt in der Tiroler Alpenregion Imst, tragen wir mit 100% regionaler<br\/>Produktion ein stolzes Erbe weiter. Die harmonische Verbindung aus innovativen Ideen und zeitlosem Design schafft Produkte, die sich von der Masse abheben und unsere Markenidentität stärken.<br\/><\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_DMGM8w": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Für praktisch gemacht",
+            "heading_tag": "h3",
+            "content": "<p>1972 übernahm Ing. Heinrich Wüster das Unternehmen seines Vaters und lenkte die Vision in eine Richtung, in die wir auch heute blicken. Wir sind Pioniere des Praktischen und verwandeln kleine Hürden des Alltags in geniale Lösungen – für Garten und Haus gemacht. Bis heute beginnt jede Idee bei JUWEL mit einem zündenden Funken und ist für mehr Lebensfreude gedacht. Und wir gehen jeden Tag einen Schritt weiter.<br\/><\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_GPjPzy",
+        "image_with_text_DMGM8w"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "columns_per_row": 2,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "multi_column_3niU9A": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_ETbrE8": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Für unser Versprechen an Sie gemacht",
+            "heading_tag": "h3",
+            "content": "<p>JUWEL gestaltet eine Welt, in der bewusster Konsum die Norm ist. Durch langlebige Materialien, cleveres Design und unseren umfassenden Reparaturservice sorgen wir dafür, dass jedes JUWEL Produkt nicht nur für den Moment, sondern für die Zukunft gemacht ist. Einmal kaufen, für immer profitieren. Ein Versprechen an Sie – und an unsere Umwelt.<br\/><\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_kpb39V": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Für den Erhalt gedacht",
+            "heading_tag": "h3",
+            "content": "<p>JUWEL entwickelt nicht nur für den Verkauf. Wir produzieren für ein mehrere Leben. Jeder Bestandteil unserer Produkte ist<br\/>austauschbar und kann von uns ersetzt werden. Mit unserer 10-Jahre-Nachkauf-Garantie für Ersatzteile bleibt Ihr<br\/>JUWEL-Begleiter so lange an Ihrer Seite, wie Sie es möchten. Kein Wegwerfen, kein Neukaufen - für echtes Durchhalten<br\/>gemacht.<br\/><\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_ETbrE8",
+        "image_with_text_kpb39V"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "columns_per_row": 2,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "video_HxQWKj": {
+      "type": "video",
+      "blocks": {
+        "play_VDmYfd": {
+          "type": "play",
+          "disabled": true,
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_PHdQ3D": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_VDmYfd",
+        "heading_PHdQ3D"
+      ],
+      "settings": {
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/JUWEL_Kampagne2025_Hochbeet_16x9_final.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
+    "image_with_text_overlay_Dzrm8K": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_9neXrm": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h4"
+          }
+        },
+        "richtext_Qwar43": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_9neXrm",
+        "richtext_Qwar43"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-3",
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/soil_texture.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "custom_liquid_BgHxLD": {
+      "type": "custom-liquid",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "",
+        "text_alignment": "center"
+      }
+    },
+    "multi_column_WzeN6x": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_9PppVz": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "",
+            "heading_tag": "h2",
+            "content": "<h3>Design und Funktion - für ausgezeichnet gemacht.<\/h3>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_ehaYJb": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "",
+            "heading_tag": "h3",
+            "content": "<p>JUWEL ist stolz darauf, dass unsere Produkte seit über einem halben Jahrhundert den Menschen in Ihrem Zuhause ans Herz wachsen. Zahlreiche internationale Patente für smartes Gärtnern und Raumwunder unterstützen sie jeden Tag. Die Beständigkeit und Qualität der JUWEL Sortimente sprechen für sich: Sie sind für Erwartung erfüllt gemacht. Und werden immer wieder mit Preisen geehrt.<br\/><\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_9PppVz",
+        "image_with_text_ehaYJb"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "columns_per_row": 2,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "logo_list_iDXgcP": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_ECPRPT": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/TESTBILD_TMGarten2024_Logo_Juwel.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_7U7d4b": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/20200_selbst.jpg",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_DwVtgy": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/30319_red_0b702ccf-d777-4173-a4f2-c047d95acb78.jpg",
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_ECPRPT",
+        "logo_7U7d4b",
+        "logo_DwVtgy"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "",
+        "stack_on_mobile": true,
+        "items_per_row": 5,
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "testimonials_h9dbY4": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_e7k3Nf": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        },
+        "testimonial_iRm4R3": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        },
+        "testimonial_xN6dUG": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_e7k3Nf",
+        "testimonial_iRm4R3",
+        "testimonial_xN6dUG"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "auto_rotate_between_testimonials": false,
+        "cycle_speed": 5,
+        "font_size_factor": 1,
+        "subheading": "",
+        "title": "Testimonials",
+        "content": ""
+      }
+    },
+    "featured_collections_MUhbPM": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_ERkxMr": {
+          "type": "collection",
+          "settings": {
+            "collection": "hero-produkte",
+            "products_count": 8,
+            "title": "hALLO",
+            "link_url": "shopify:\/\/collections",
+            "link_text": "ZUM SHOP"
+          }
+        }
+      },
+      "block_order": [
+        "collection_ERkxMr"
+      ],
+      "custom_css": [
+        "p {color: #ffffff; font-size: 30pt; text-align: left;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "UNSERE HERO PRODUKTE"
+      }
+    },
+    "faq_fa3XjC": {
+      "type": "faq",
+      "blocks": {
+        "question_GyQeeh": {
+          "type": "question",
+          "settings": {
+            "question": "How long will it take to get my orders?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "question_TNdWGw": {
+          "type": "question",
+          "settings": {
+            "question": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        },
+        "question_Pm6EUP": {
+          "type": "question",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Write a clear and concise answer to guide your customers.<\/p>"
+          }
+        },
+        "question_LxC7PC": {
+          "type": "question",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Write a clear and concise answer to guide your customers.<\/p>"
+          }
+        },
+        "question_npRmGC": {
+          "type": "question",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Write a clear and concise answer to guide your customers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_GyQeeh",
+        "question_TNdWGw",
+        "question_Pm6EUP",
+        "question_LxC7PC",
+        "question_npRmGC"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "Need help?",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
+    },
+    "blog_posts_f3kwVL": {
+      "type": "blog-posts",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "blog": "neuer-blog-test",
+        "posts_count": 3,
+        "stack_on_mobile": false,
+        "show_category": true,
+        "show_date": false,
+        "show_excerpt": true,
+        "show_read_more": true,
+        "subheading": "",
+        "title": "Blog posts",
+        "content": "",
+        "button_link": "",
+        "button_text": "alle ansehen"
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "multi_column_ePczAQ",
+    "multi_column_c9q6km",
+    "multi_column_HiFacd",
+    "multi_column_3niU9A",
+    "video_HxQWKj",
+    "image_with_text_overlay_Dzrm8K",
+    "custom_liquid_BgHxLD",
+    "multi_column_WzeN6x",
+    "logo_list_iDXgcP",
+    "testimonials_h9dbY4",
+    "featured_collections_MUhbPM",
+    "faq_fa3XjC",
+    "blog_posts_f3kwVL"
+  ]
+}
