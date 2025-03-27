@@ -142,36 +142,92 @@
         <div class="list-container first">
           <!-- accordion -->
 
-          {{ product.metafields.custom.product_first_lists | metafield_tag }}
-          
           {% comment %} 
-            <div class="accordion">
+            {{ product.metafields.custom.product_first_lists | metafield_tag }}
+          {% endcomment %}
+          <div class="accordion">
+            {% if product.metafields.custom.vorteile_neu.value %}
               <div class="accordion-item">
-                <div class="accordion-header">Maße und Optik</div>
-                <div class="accordion-content">Details zu Maße und Optik.</div>
+                <div class="accordion-header">Vorteile</div>
+                <div class="accordion-content">
+                  {{ product.metafields.custom.vorteile_neu | metafield_tag }}
+                </div>
               </div>
+            {% endif %}
+            {% if product.metafields.custom.abmessungen.value %}
               <div class="accordion-item">
-                <div class="accordion-header">Zubehör</div>
-                <div class="accordion-content">Details zu Zubehör.</div>
+                <div class="accordion-header">Abmessungen</div>
+                <div class="accordion-content">
+                  {{ product.metafields.custom.abmessungen | metafield_tag }}
+                </div>
               </div>
-              <div class="accordion-item">
-                <div class="accordion-header">Ersatzteile</div>
-                <div class="accordion-content">Informationen über Ersatzteile.</div>
-              </div>
-              <div class="accordion-item">
-                <div class="accordion-header">Kombination</div>
-                <div class="accordion-content">Möglichkeiten zur Kombination.</div>
-              </div>
+            {% endif %}
+            {% if product.metafields.custom.garantie.value %}
               <div class="accordion-item">
                 <div class="accordion-header">Garantie</div>
-                <div class="accordion-content">Garantiebedingungen und Details.</div>
+                <div class="accordion-content">
+                  {{ product.metafields.custom.garantie | metafield_tag }}
+                </div>
               </div>
+            {% endif %}
+            {% if product.metafields.custom.variabel1_heading.value %}
               <div class="accordion-item">
-                <div class="accordion-header">Montage</div>
-                <div class="accordion-content">Anleitung zur Montage.</div>
+                <div class="accordion-header">variabel1_heading</div>
+                <div class="accordion-content">
+                  {{ product.metafields.custom.variabel1_heading | metafield_tag }}
+                </div>
               </div>
-            </div>
-          {% endcomment %}
+            {% endif %}
+            {% if product.metafields.custom.variabel1_inhalt.value %}
+              <div class="accordion-item">
+                <div class="accordion-header">variabel1_inhalt</div>
+                <div class="accordion-content">
+                  {{ product.metafields.custom.variabel1_inhalt | metafield_tag }}
+                </div>
+              </div>
+            {% endif %}
+            {% if product.metafields.custom.variabel2_heading.value %}
+              <div class="accordion-item">
+                <div class="accordion-header">variabel2_heading</div>
+                <div class="accordion-content">
+                  {{ product.metafields.custom.variabel2_heading | metafield_tag }}
+                </div>
+              </div>
+            {% endif %}
+            {% if product.metafields.custom.variabel2_inhalt.value %}
+              <div class="accordion-item">
+                <div class="accordion-header">variabel2_inhalt</div>
+                <div class="accordion-content">
+                  {{ product.metafields.custom.variabel2_inhalt | metafield_tag }}
+                </div>
+              </div>
+            {% endif %}
+            {% if product.metafields.custom.variabel3_heading.value %}
+              <div class="accordion-item">
+                <div class="accordion-header">variabel3_heading</div>
+                <div class="accordion-content">
+                  {{ product.metafields.custom.variabel3_heading | metafield_tag }}
+                </div>
+              </div>
+            {% endif %}
+            {% if product.metafields.custom.variabel3_inhalt.value %}
+              <div class="accordion-item">
+                <div class="accordion-header">variabel3_inhalt</div>
+                <div class="accordion-content">
+                  {{ product.metafields.custom.variabel3_inhalt | metafield_tag }}
+                </div>
+              </div>
+            {% endif %}
+            {% if product.metafields.custom.montagenleitung.value %}
+              <div class="accordion-item">
+                <div class="accordion-header">Montagenleitung</div>
+                <div class="accordion-content">
+                  {{ product.metafields.custom.montagenleitung | metafield_tag }}
+                </div>
+              </div>
+            {% endif %}
+          </div>
+
         </div>
         <div class="list-container">
           <!-- extyra list -->
@@ -206,14 +262,14 @@
         mainSlider.mount();
         thumbSlider.mount();
         //acrodion
-        // document.querySelectorAll(".accordion-header").forEach((header) => {
-        //   header.addEventListener("click", function () {
-        //     this.classList.toggle("active");
-        //     const content = this.nextElementSibling;
-        //     content.style.display =
-        //       content.style.display === "block" ? "none" : "block";
-        //   });
-        // });
+        document.querySelectorAll(".accordion-header").forEach((header) => {
+          header.addEventListener("click", function () {
+            this.classList.toggle("active");
+            const content = this.nextElementSibling;
+            content.style.display =
+              content.style.display === "block" ? "none" : "block";
+          });
+        });
       });
 </script>
 
