@@ -13,7 +13,12 @@
       <h1 class="product-title">
         {{- product_title -}}
       </h1>
-      <p>{{ product.category }}</p>
+      <p>
+        {% for collection in product.collections %}
+          <a href="{{ collection.url }}" class="text-link">{{ collection.title }}</a>
+          {% unless forloop.last %} , {% endunless %}
+        {% endfor %}
+      </p>
     </div>
     <p>({{ product.created_at | date: '%B %d, %Y' }})</p>
   </div>
@@ -222,14 +227,17 @@
               <div class="accordion-item">
                 <div class="accordion-header">Montagenleitung</div>
                 <div class="accordion-content">
-                  {{ product.metafields.custom.montagenleitung | metafield_tag }}
+                  <a style="display: flex;align-items: center;gap: 10px;text-decoration: underline;" href="{{ product.metafields.custom.montagenleitung.value.url }}" target="_blank">
+                    <img src="{{ product.metafields.custom.montagenleitung.value.preview_image | img_url: 'icon' }}" alt="{{ product.metafields.custom.montagenleitung.value.alt }}">
+                    <p>{{ product.metafields.custom.montagenleitung.value.alt }}</p>
+                  </a>
                 </div>
               </div>
             {% endif %}
           </div>
 
         </div>
-        <div class="list-container">
+        <div class="list-container second">
           <!-- extyra list -->
 
           {{ product.metafields.custom.right_side_list | metafield_tag }}

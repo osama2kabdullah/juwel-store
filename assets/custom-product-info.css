@@ -17,10 +17,13 @@ product-template .title-area {
   padding-bottom: 30px;
 }
 product-template .metadata-area .list-container {
-  min-width: 50%;
+  min-width: 40%;
 }
 product-template .metadata-area .list-container ul li {
   padding: 5px 0;
+}
+product-template .metadata-area .list-container.second ul {
+  margin-left: 0px;
 }
 product-template .metadata-area .list-container ul {
   margin-left: 30px;
@@ -40,6 +43,7 @@ product-template .actual-info-area {
 product-template .metadata-area {
   display: flex;
   flex-wrap: wrap;
+  gap: 10%;
 }
 product-template .price-add-btn-area {
   display: flex;
