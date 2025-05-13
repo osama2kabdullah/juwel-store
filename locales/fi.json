@@ -156,6 +156,12 @@
       "pick_up_currently_unavailable": "Ei tällä hetkellä noudettavissa",
       "pick_up_available_at": "Noudettavissa kohteesta {{ location_name }}",
       "pick_up_unavailable_at": "Ei tällä hetkellä noudettavissa kohteesta {{ location_name }}"
+    },
+        "custom_data": {
+      "vorteile_neu": "",
+      "abmessungen": "",
+      "garantie": "",
+      "montagenleitung": ""
     }
   },
   "collection": {

@@ -14,18 +14,15 @@
         {{- product_title -}}
       </h1>
       <p>
-
         {% if product.metafields.custom.subheading.value %}
-              <div class="text-link">{{ product.metafields.custom.subheading | metafield_tag }}
-                </div>
-            {% endif %}
-             </p>
+          <div class="text-link">{{ product.metafields.custom.subheading | metafield_tag }}</div>
+        {% endif %}
+      </p>
     </div>
-    <h4">
-     {% if product.metafields.custom.artnr.value %}
-              <div class="text-link">Art.-Nr.: {{ product.metafields.custom.artnr | metafield_tag }}
-                </div>
-            {% endif %}
+    <h4>
+      {% if product.metafields.custom.artnr.value %}
+        <div class="text-link">Art.-Nr.: {{ product.metafields.custom.artnr | metafield_tag }}</div>
+      {% endif %}
     </h4>
   </div>
   <!-- product info with images -->
@@ -57,6 +54,7 @@
         </div>
       </div>
     </div>
+    
     <div class="actual-info-area">
       <div>
         {{ product.description }}
@@ -89,54 +87,6 @@
           {%- endif -%}
         </div>
 
-        {% comment %}
-          <!-- form content -->
-          <!-- Variant selector -->
-          <select name="id">
-            {% for variant in product.variants %}
-              <option
-                value="{{ variant.id }}"
-                {% if variant == current_variant %}
-                  selected="selected"
-                {% endif %}
-              >
-                {{ variant.title }} - {{ variant.price | money }}
-              </option>
-            {% endfor %}
-          </select>
-          <input type="text" hidden name="quantity" min="1" value="1">
-
-          <input type="submit" class="button" value="Add to cart">
-          <div style="display: flex;gap: 30px;flex-wrap: wrap;">
-            <div class="v-stack gap-1 justify-items-start">
-              {%- liquid
-                assign variant = product.selected_or_first_available_variant
-                assign quantity_rules = ''
-
-                render 'quantity-selector', variant: variant, form: product_form_id
-
-                if variant.quantity_rule.min > 1
-                  assign rule = 'product.quantity.minimum_of' | t: min: variant.quantity_rule.min
-                  assign quantity_rules = quantity_rules | append: ' / ' | append: rule
-                endif
-
-                if variant.quantity_rule.max != null
-                  assign rule = 'product.quantity.maximum_of' | t: max: variant.quantity_rule.max
-                  assign quantity_rules = quantity_rules | append: ' / ' | append: rule
-                endif
-
-                if variant.quantity_rule.increment > 1
-                  assign rule = 'product.quantity.increment_of' | t: step: variant.quantity_rule.increment
-                  assign quantity_rules = quantity_rules | append: ' / ' | append: rule
-                endif
-              -%}
-
-              {%- if quantity_rules != blank -%}
-                <p class="text-subdued text-sm">{{ quantity_rules | remove_first: ' / ' | capitalize }}</p>
-              {%- endif -%}
-            </div>
-          </div>
-        {% endcomment %}
         {%- render 'custom-buy-buttons',
           product: product,
           form_id: product_form_id,
@@ -153,7 +103,7 @@
         <div class="list-container first">
           <!-- accordion -->
 
-          {% comment %} 
+          {% comment %}
             {{ product.metafields.custom.product_first_lists | metafield_tag }}
           {% endcomment %}
           <div class="accordion">
@@ -173,10 +123,12 @@
                 </div>
               </div>
             {% endif %}
-                       
+
             {% if product.metafields.custom.variabel1_heading.value %}
               <div class="accordion-item">
-                <div class="accordion-header">{{ product.metafields.custom.variabel1_heading | metafield_tag | strip_html }}</div>
+                <div class="accordion-header">
+                  {{ product.metafields.custom.variabel1_heading | metafield_tag | strip_html }}
+                </div>
                 <div class="accordion-content">
                   {{ product.metafields.custom.variabel1_inhalt | metafield_tag }}
                 </div>
@@ -185,23 +137,27 @@
 
             {% if product.metafields.custom.variabel2_heading.value %}
               <div class="accordion-item">
-                <div class="accordion-header">{{ product.metafields.custom.variabel2_heading | metafield_tag | strip_html }}</div>
+                <div class="accordion-header">
+                  {{ product.metafields.custom.variabel2_heading | metafield_tag | strip_html }}
+                </div>
                 <div class="accordion-content">
                   {{ product.metafields.custom.variabel2_inhalt | metafield_tag }}
                 </div>
               </div>
             {% endif %}
 
-             {% if product.metafields.custom.variabel3_heading.value %}
+            {% if product.metafields.custom.variabel3_heading.value %}
               <div class="accordion-item">
-                <div class="accordion-header">{{ product.metafields.custom.variabel3_heading | metafield_tag | strip_html }}</div>
+                <div class="accordion-header">
+                  {{ product.metafields.custom.variabel3_heading | metafield_tag | strip_html }}
+                </div>
                 <div class="accordion-content">
                   {{ product.metafields.custom.variabel3_inhalt | metafield_tag }}
                 </div>
               </div>
             {% endif %}
 
-             {% if product.metafields.custom.garantie.value %}
+            {% if product.metafields.custom.garantie.value %}
               <div class="accordion-item">
                 <div class="accordion-header">Garantie</div>
                 <div class="accordion-content">
@@ -210,43 +166,46 @@
               </div>
             {% endif %}
 
-          {% comment %}
-            {% if product.metafields.custom.montagenleitung.value %}
-              <div class="accordion-item">
-                <div class="accordion-header">Montageanleitung</div>
-                <div class="accordion-content">
-                  <a style="display: flex;align-items: center;gap: 10px;text-decoration: underline;" href="{{ product.metafields.custom.montagenleitung.value.url }}" target="_blank">
-                    <img src="{{ product.metafields.custom.montagenleitung.value.preview_image | img_url: 'icon' }}" alt="{{ product.metafields.custom.montagenleitung.value.alt }}">
-                    <p>{{ product.metafields.custom.montagenleitung.value.alt }}</p>
-                  </a>
+            {% comment %}
+              {% if product.metafields.custom.montagenleitung.value %}
+                <div class="accordion-item">
+                  <div class="accordion-header">Montageanleitung</div>
+                  <div class="accordion-content">
+                    <a style="display: flex;align-items: center;gap: 10px;text-decoration: underline;" href="{{ product.metafields.custom.montagenleitung.value.url }}" target="_blank">
+                      <img src="{{ product.metafields.custom.montagenleitung.value.preview_image | img_url: 'icon' }}" alt="{{ product.metafields.custom.montagenleitung.value.alt }}">
+                      <p>{{ product.metafields.custom.montagenleitung.value.alt }}</p>
+                    </a>
+                  </div>
                 </div>
-              </div>
-            {% endif %} 
-          {% endcomment %}
+              {% endif %}
+            {% endcomment %}
 
             {% if product.metafields.custom.montagenleitung.value %}
-              {% assign file_url = product.metafields.custom.montagenleitung.value.url %}          
-              {% assign file_name = file_url | split: '/' | last | split: '?' | first %}          
+              {% assign file_url = product.metafields.custom.montagenleitung.value.url %}
+              {% assign file_name = file_url | split: '/' | last | split: '?' | first %}
               <div class="accordion-item">
                 <div class="accordion-header">Montageanleitung</div>
                 <div class="accordion-content">
-                  <a style="display: flex;align-items: center;gap: 10px;text-decoration: underline;" href="{{ file_url }}" target="_blank">
-                    <img src="{{ product.metafields.custom.montagenleitung.value.preview_image | img_url: 'icon' }}" alt="{{ file_name }}">
+                  <a
+                    style="display: flex;align-items: center;gap: 10px;text-decoration: underline;"
+                    href="{{ file_url }}"
+                    target="_blank"
+                  >
+                    <img
+                      src="{{ product.metafields.custom.montagenleitung.value.preview_image | img_url: 'icon' }}"
+                      alt="{{ file_name }}"
+                    >
                     <p>{{ file_name }}</p>
                   </a>
                 </div>
               </div>
             {% endif %}
-
-
           </div>
-
         </div>
         <div class="list-container second">
           <!-- extyra list -->
 
           {{ product.metafields.custom.right_side_list | metafield_tag }}
-          
         </div>
       </div>
     </div>
@@ -255,35 +214,34 @@
 
 <script>
   window.addEventListener('DOMContentLoaded', (event) => {
-        // slider
-        var mainSlider = new Splide("#custommain-slider", {
-          type: "fade",
-          heightRatio: 0.75,
-          pagination: false,
-          arrows: true,
-        });
-        var thumbSlider = new Splide("#customthumbnail-slider", {
-          fixedWidth: 80,
-          fixedHeight: 80,
-          isNavigation: true,
-          gap: 10,
-          arrows: false,
-          pagination: false,
-          cover: true,
-        });
-        mainSlider.sync(thumbSlider);
-        mainSlider.mount();
-        thumbSlider.mount();
-        //acrodion
-        document.querySelectorAll(".accordion-header").forEach((header) => {
-          header.addEventListener("click", function () {
-            this.classList.toggle("active");
-            const content = this.nextElementSibling;
-            content.style.display =
-              content.style.display === "block" ? "none" : "block";
-          });
-        });
+    // slider
+    var mainSlider = new Splide('#custommain-slider', {
+      type: 'fade',
+      heightRatio: 0.75,
+      pagination: false,
+      arrows: true,
+    });
+    var thumbSlider = new Splide('#customthumbnail-slider', {
+      fixedWidth: 80,
+      fixedHeight: 80,
+      isNavigation: true,
+      gap: 10,
+      arrows: false,
+      pagination: false,
+      cover: true,
+    });
+    mainSlider.sync(thumbSlider);
+    mainSlider.mount();
+    thumbSlider.mount();
+    //acrodion
+    document.querySelectorAll('.accordion-header').forEach((header) => {
+      header.addEventListener('click', function () {
+        this.classList.toggle('active');
+        const content = this.nextElementSibling;
+        content.style.display = content.style.display === 'block' ? 'none' : 'block';
       });
+    });
+  });
 </script>
 
 {% schema %}

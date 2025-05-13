@@ -156,6 +156,12 @@
       "pick_up_currently_unavailable": "Παραλαβή προς το παρόν μη διαθέσιμη",
       "pick_up_available_at": "Παραλαβή διαθέσιμη στο {{ location_name }}",
       "pick_up_unavailable_at": "Παραλαβή προς το παρόν μη διαθέσιμη στο {{ location_name }}"
+    },
+        "custom_data": {
+      "vorteile_neu": "",
+      "abmessungen": "",
+      "garantie": "",
+      "montagenleitung": ""
     }
   },
   "collection": {

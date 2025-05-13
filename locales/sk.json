@@ -163,6 +163,12 @@
       "pick_up_currently_unavailable": "Vyzdvihnutie momentálne nie je možné",
       "pick_up_available_at": "Vyzdvihnutie je možné na {{ location_name }}",
       "pick_up_unavailable_at": "Vyzdvihnutie na {{ location_name }} momentálne nie je možné"
+    },
+        "custom_data": {
+      "vorteile_neu": "",
+      "abmessungen": "",
+      "garantie": "",
+      "montagenleitung": ""
     }
   },
   "collection": {

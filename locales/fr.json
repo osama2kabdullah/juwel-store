@@ -156,6 +156,12 @@
       "pick_up_currently_unavailable": "Récupération actuellement indisponible",
       "pick_up_available_at": "Récupération disponible à {{ location_name }}",
       "pick_up_unavailable_at": "Récupération actuellement indisponible à {{ location_name }}"
+    },
+        "custom_data": {
+      "vorteile_neu": "",
+      "abmessungen": "",
+      "garantie": "",
+      "montagenleitung": ""
     }
   },
   "collection": {

@@ -156,6 +156,12 @@
       "pick_up_currently_unavailable": "Gel-al şu anda kullanılamıyor",
       "pick_up_available_at": "Gel-al {{ location_name }} konumunda mevcut",
       "pick_up_unavailable_at": "Gel-al {{ location_name }} konumunda şu anda kullanılamıyor"
+    },
+        "custom_data": {
+      "vorteile_neu": "",
+      "abmessungen": "",
+      "garantie": "",
+      "montagenleitung": ""
     }
   },
   "collection": {

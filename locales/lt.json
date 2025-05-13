@@ -159,6 +159,12 @@
       "pick_up_currently_unavailable": "Šiuo metu atsiimti patiems negalima",
       "pick_up_available_at": "Galima atsiimti patiems {{ location_name }}",
       "pick_up_unavailable_at": "Šiuo metu atsiimti patiems {{ location_name }} negalima"
+    },
+        "custom_data": {
+      "vorteile_neu": "",
+      "abmessungen": "",
+      "garantie": "",
+      "montagenleitung": ""
     }
   },
   "collection": {

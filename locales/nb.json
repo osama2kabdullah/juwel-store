@@ -156,6 +156,12 @@
       "pick_up_currently_unavailable": "Plukk og hent ikke tilgjengelig",
       "pick_up_available_at": "Plukk og hent tilgjengelig hos {{ location_name }}",
       "pick_up_unavailable_at": "Plukk og hent ikke tilgjengelig hos {{ location_name }}"
+    },
+        "custom_data": {
+      "vorteile_neu": "",
+      "abmessungen": "",
+      "garantie": "",
+      "montagenleitung": ""
     }
   },
   "collection": {

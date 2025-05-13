@@ -162,6 +162,12 @@
       "pick_up_currently_unavailable": "Osebni prevzem trenutno ni na voljo",
       "pick_up_available_at": "Osebni prevzem je na voljo v mestu {{ location_name }}",
       "pick_up_unavailable_at": "Osebni prevzem trenutno ni na voljo v mestu {{ location_name }}"
+    },
+        "custom_data": {
+      "vorteile_neu": "",
+      "abmessungen": "",
+      "garantie": "",
+      "montagenleitung": ""
     }
   },
   "collection": {

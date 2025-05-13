@@ -155,6 +155,12 @@
       "pick_up_currently_unavailable": "Upphämtning för närvarande inte tillgänglig",
       "pick_up_available_at": "Upphämtning tillgänglig på {{ location_name }}",
       "pick_up_unavailable_at": "Upphämtning för närvarande inte tillgänglig på {{ location_name }}"
+    },
+        "custom_data": {
+      "vorteile_neu": "",
+      "abmessungen": "",
+      "garantie": "",
+      "montagenleitung": ""
     }
   },
   "collection": {

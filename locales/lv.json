@@ -156,6 +156,12 @@
       "pick_up_currently_unavailable": "Saņemšana klātienē pašlaik nav pieejama",
       "pick_up_available_at": "{{ location_name }}: saņemšana klātienē pieejama",
       "pick_up_unavailable_at": "{{ location_name }}: saņemšana klātienē pašlaik nav pieejama"
+    },
+        "custom_data": {
+      "vorteile_neu": "",
+      "abmessungen": "",
+      "garantie": "",
+      "montagenleitung": ""
     }
   },
   "collection": {

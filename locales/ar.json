@@ -156,6 +156,12 @@
       "pick_up_currently_unavailable": "الاستلام من المتجر غير متاح حاليًا",
       "pick_up_available_at": "الاستلام من المتجر متاح في {{ location_name }}",
       "pick_up_unavailable_at": "الاستلام من المتجر غير متاح في {{ location_name }} حاليًا"
+    },
+    "custom_data": {
+      "vorteile_neu": "",
+      "abmessungen": "",
+      "garantie": "",
+      "montagenleitung": ""
     }
   },
   "collection": {

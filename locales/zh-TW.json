@@ -155,6 +155,12 @@
       "pick_up_currently_unavailable": "目前無法取貨",
       "pick_up_available_at": "可於 {{ location_name }} 取貨",
       "pick_up_unavailable_at": "目前無法於 {{ location_name }} 取貨"
+    },
+        "custom_data": {
+      "vorteile_neu": "",
+      "abmessungen": "",
+      "garantie": "",
+      "montagenleitung": ""
     }
   },
   "collection": {

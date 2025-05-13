@@ -161,6 +161,12 @@
       "pick_up_currently_unavailable": "Odbiór w sklepie niedostępny",
       "pick_up_available_at": "Odbierz w: {{ location_name }}",
       "pick_up_unavailable_at": "Odbiór niedostępny w: {{ location_name }}"
+    },
+        "custom_data": {
+      "vorteile_neu": "",
+      "abmessungen": "",
+      "garantie": "",
+      "montagenleitung": ""
     }
   },
   "collection": {

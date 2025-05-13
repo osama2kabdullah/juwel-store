@@ -1,3 +1,4 @@
+{{- 'custom-product-info.css' | asset_url | stylesheet_tag: preload: true -}}
 {%- liquid
   assign has_content_below_gallery = false
 
@@ -44,70 +45,204 @@
   <div class="container {% unless section.settings.container_size == 'full' %}container--{{ section.settings.container_size }}{% endunless %}">
     <product-rerender id="product-info-{{ product.id }}-{{ section.id }}" observe-form="{{ product_form_id }}" allow-partial-rerender>
  
-      <h2 class="product-title h3">
-       <a href="{{ product.url }}">{{ product.title }}</a>
-      </h2>
+    <div class="title-area">
+      <div>
+        {%- if product != blank -%}
+          {%- assign product_title = product.title -%}
+        {%- else -%}
+          {%- assign product_title = 'general.on_boarding.product_title' | t -%}
+        {%- endif -%}
+
+        <h1 class="product-title">
+          {{- product_title -}}
+        </h1>
+        <p>
+          {% if product.metafields.custom.subheading.value %}
+            <div class="text-link">{{ product.metafields.custom.subheading | metafield_tag }}</div>
+          {% endif %}
+        </p>
+      </div>
+      <h4>
+        {% if product.metafields.custom.artnr.value %}
+          <div class="text-link">Art.-Nr.: {{ product.metafields.custom.artnr | metafield_tag }}</div>
+        {% endif %}
+      </h4>
+    </div>
       
       
       <div class="product">
-        {%- if product.media.size > 0 -%}
-          {%- render 'product-gallery',
-              product: product,
-              product_form_id: product_form_id,
-              desktop_layout: section.settings.desktop_media_layout,
-              mobile_controls: section.settings.mobile_controls,
-              enable_media_autoplay: section.settings.enable_media_autoplay,
-              enable_video_looping: section.settings.enable_video_looping,
-              enable_image_zoom: section.settings.enable_image_zoom,
-              max_image_zoom_level: section.settings.max_image_zoom_level -%}
-        {%- endif -%}
 
-        {%- render 'product-info', 
-          product: product, 
-          product_form_id: product_form_id,
-          center_basic_info: section.settings.center_basic_info, 
-          has_content_below_gallery: has_content_below_gallery, 
-          context: 'main_product' 
-        -%}
+        <div class="info-images-area">
+          {%- if product.media.size > 0 -%}
+            {%- render 'product-gallery',
+                product: product,
+                product_form_id: product_form_id,
+                desktop_layout: section.settings.desktop_media_layout,
+                mobile_controls: section.settings.mobile_controls,
+                enable_media_autoplay: section.settings.enable_media_autoplay,
+                enable_video_looping: section.settings.enable_video_looping,
+                enable_image_zoom: section.settings.enable_image_zoom,
+                max_image_zoom_level: section.settings.max_image_zoom_level -%}
+          {%- endif -%}
+        </div>
 
-        
-        {%- comment -%}On Prestige, some content may be on the left part below the product gallery{%- endcomment -%}
-        {%- if has_content_below_gallery -%}
-          <div id="product-extra-information" class="product-content-below-gallery empty:hidden scroll-margin-offset">
-            {%- for block in section.blocks -%}
-              {%- unless block.settings.show_below_gallery -%}
-                {%- continue -%}
-              {%- endunless -%}
-
-              {%- case block.type -%}
-                {%- when 'description' -%}
-                  {%- if product.description != blank -%}
-                    {%- if block.settings.collapse_content -%}
-                      {%- assign accordion_title = 'product.general.description' | t -%}
-                      {%- render 'accordion', title: accordion_title, content: product.description, prose_content: true, size: 'lg', block: block -%}
-                    {%- else -%}
-                      <div class="product-content-below-gallery__description prose">
-                        {{- product.description -}}
-                      </div>
-                    {%- endif -%}
-                  {%- endif -%}
-
-                {%- when 'accordion' -%}
-                  {%- liquid
-                    assign accordion_title = block.settings.page.title | default: block.settings.title 
-                    assign accordion_content = block.settings.page.content | default: block.settings.liquid | default: block.settings.content
-
-                    if accordion_title != blank and accordion_content != blank
-                      render 'accordion', title: accordion_title, content: accordion_content, size: 'lg', prose_content: true, icon: block.settings.icon, custom_icon: block.settings.custom_icon, block: block
-                    endif
+        <div class="actual-info-area">
+          <div>
+            {{ product.description }}
+          </div>
+          <!-- price and add to cart, var selector -->
+          <div class="price-add-btn-area">
+            <div>
+              {%- if product.selected_or_first_available_variant != null -%}
+                <div class="v-stack">
+                  {%- render 'price-list',
+                    product: product,
+                    variant: product.selected_or_first_available_variant,
+                    context: 'product'
                   -%}
 
-                {%- when 'complementary_products' -%}
-                  {%- render 'complementary-products', product: product, block: block -%}
-              {%- endcase -%}
-            {%- endfor -%}
+                  {%- if block.settings.show_taxes_notice -%}
+                    <p class="text-sm text-subdued">
+                      {%- if cart.taxes_included -%}
+                        {{ 'product.general.taxes_included' | t }}
+                      {%- else -%}
+                        {{ 'product.general.taxes_excluded' | t }}
+                      {%- endif -%}
+
+                      {%- if shop.shipping_policy.body != blank -%}
+                        {{ 'product.general.shipping_policy_html' | t: link: shop.shipping_policy.url }}
+                      {%- endif -%}
+                    </p>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+            </div>
+
+            {%- render 'custom-buy-buttons',
+              product: product,
+              form_id: product_form_id,
+              show_payment_button: false,
+              show_gift_card_recipient: false,
+              atc_button_background: '#000',
+              atc_button_text_color: '#fff',
+              payment_button_background: '#fff',
+              payment_button_text_color: '#000'
+            -%}
           </div>
-        {%- endif -%}
+          <!-- extra info with metafield -->
+          <div class="metadata-area">
+            <div class="list-container first">
+              <!-- accordion -->
+
+              {% comment %}
+                {{ product.metafields.custom.product_first_lists | metafield_tag }}
+              {% endcomment %}
+              <div class="accordion">
+                {% if product.metafields.custom.vorteile_neu.value %}
+                  <div class="accordion-item">
+                    <div class="accordion-header">{{ "product.custom_data.vorteile_neu" | t }}</div>
+                    <div class="accordion-content">
+                      {{ product.metafields.custom.vorteile_neu | metafield_tag }}
+                    </div>
+                  </div>
+                {% endif %}
+                {% if product.metafields.custom.abmessungen.value %}
+                  <div class="accordion-item">
+                    <div class="accordion-header">{{ "product.custom_data.abmessungen" | t }}</div>
+                    <div class="accordion-content">
+                      {{ product.metafields.custom.abmessungen | metafield_tag }}
+                    </div>
+                  </div>
+                {% endif %}
+
+                {% if product.metafields.custom.variabel1_heading.value %}
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      {{ product.metafields.custom.variabel1_heading | metafield_tag | strip_html }}
+                    </div>
+                    <div class="accordion-content">
+                      {{ product.metafields.custom.variabel1_inhalt | metafield_tag }}
+                    </div>
+                  </div>
+                {% endif %}
+
+                {% if product.metafields.custom.variabel2_heading.value %}
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      {{ product.metafields.custom.variabel2_heading | metafield_tag | strip_html }}
+                    </div>
+                    <div class="accordion-content">
+                      {{ product.metafields.custom.variabel2_inhalt | metafield_tag }}
+                    </div>
+                  </div>
+                {% endif %}
+
+                {% if product.metafields.custom.variabel3_heading.value %}
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      {{ product.metafields.custom.variabel3_heading | metafield_tag | strip_html }}
+                    </div>
+                    <div class="accordion-content">
+                      {{ product.metafields.custom.variabel3_inhalt | metafield_tag }}
+                    </div>
+                  </div>
+                {% endif %}
+
+                {% if product.metafields.custom.garantie.value %}
+                  <div class="accordion-item">
+                    <div class="accordion-header">{{ "product.custom_data.garantie" | t }}</div>
+                    <div class="accordion-content">
+                      {{ product.metafields.custom.garantie | metafield_tag }}
+                    </div>
+                  </div>
+                {% endif %}
+
+                {% comment %}
+                  {% if product.metafields.custom.montagenleitung.value %}
+                    <div class="accordion-item">
+                      <div class="accordion-header">Montageanleitung</div>
+                      <div class="accordion-content">
+                        <a style="display: flex;align-items: center;gap: 10px;text-decoration: underline;" href="{{ product.metafields.custom.montagenleitung.value.url }}" target="_blank">
+                          <img src="{{ product.metafields.custom.montagenleitung.value.preview_image | img_url: 'icon' }}" alt="{{ product.metafields.custom.montagenleitung.value.alt }}">
+                          <p>{{ product.metafields.custom.montagenleitung.value.alt }}</p>
+                        </a>
+                      </div>
+                    </div>
+                  {% endif %}
+                {% endcomment %}
+
+                {% if product.metafields.custom.montagenleitung.value %}
+                  {% assign file_url = product.metafields.custom.montagenleitung.value.url %}
+                  {% assign file_name = file_url | split: '/' | last | split: '?' | first %}
+                  <div class="accordion-item">
+                    <div class="accordion-header">{{ "product.custom_data.montagenleitung" | t }}</div>
+                    <div class="accordion-content">
+                      <a
+                        style="display: flex;align-items: center;gap: 10px;text-decoration: underline;"
+                        href="{{ file_url }}"
+                        target="_blank"
+                      >
+                        <img
+                          src="{{ product.metafields.custom.montagenleitung.value.preview_image | img_url: 'icon' }}"
+                          alt="{{ file_name }}"
+                          width=""
+                          height=""
+                        >
+                        <p>{{ file_name }}</p>
+                      </a>
+                    </div>
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+            <div class="list-container second">
+              <!-- extyra list -->
+
+              {{ product.metafields.custom.right_side_list | metafield_tag }}
+            </div>
+          </div>
+        </div>
+        
       </div>
     </product-rerender>
   </div>
@@ -181,6 +316,13 @@ quick buy information in a template, that will be extracted in JS, which ensures
   } catch (e) {
     // Safari in private mode does not allow setting item, we silently fail
   }
+  document.querySelectorAll('.accordion-header').forEach((header) => {
+    header.addEventListener('click', function () {
+      this.classList.toggle('active');
+      const content = this.nextElementSibling;
+      content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    });
+  });
 </script>
 
 {% schema %}

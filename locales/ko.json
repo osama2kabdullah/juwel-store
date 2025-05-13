@@ -154,6 +154,12 @@
       "pick_up_currently_unavailable": "현재 픽업 불가능",
       "pick_up_available_at": "{{ location_name }}에서 픽업 가능",
       "pick_up_unavailable_at": "{{ location_name }}에서 픽업 불가능"
+    },
+        "custom_data": {
+      "vorteile_neu": "",
+      "abmessungen": "",
+      "garantie": "",
+      "montagenleitung": ""
     }
   },
   "collection": {

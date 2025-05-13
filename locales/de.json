@@ -156,6 +156,12 @@
       "pick_up_currently_unavailable": "Abholung momentan nicht möglich",
       "pick_up_available_at": "Abholung von {{ location_name }} möglich",
       "pick_up_unavailable_at": "Abholung von {{ location_name }} momentan nicht möglich"
+    },
+    "custom_data": {
+      "vorteile_neu": "Vorteile auf einen Blick",
+      "abmessungen": "Abmessungen",
+      "garantie": "Garantie",
+      "montagenleitung": "Montageanleitung"
     }
   },
   "collection": {

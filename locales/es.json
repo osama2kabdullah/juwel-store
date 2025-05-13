@@ -156,6 +156,12 @@
       "pick_up_currently_unavailable": "Recogida no disponible actualmente",
       "pick_up_available_at": "Recogida disponible en {{ location_name }}",
       "pick_up_unavailable_at": "Recogida no disponible actualmente en {{ location_name }}"
+    },
+        "custom_data": {
+      "vorteile_neu": "",
+      "abmessungen": "",
+      "garantie": "",
+      "montagenleitung": ""
     }
   },
   "collection": {

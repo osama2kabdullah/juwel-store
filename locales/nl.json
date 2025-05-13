@@ -156,6 +156,12 @@
       "pick_up_currently_unavailable": "Ophaling momenteel niet beschikbaar",
       "pick_up_available_at": "Ophalen beschikbaar bij {{ location_name }}",
       "pick_up_unavailable_at": "Ophalen momenteel niet beschikbaar bij {{ location_name }}"
+    },
+        "custom_data": {
+      "vorteile_neu": "",
+      "abmessungen": "",
+      "garantie": "",
+      "montagenleitung": ""
     }
   },
   "collection": {

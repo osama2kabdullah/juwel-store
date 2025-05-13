@@ -154,6 +154,12 @@
       "pick_up_currently_unavailable": "商品のピックアップは現在利用できません",
       "pick_up_available_at": "{{ location_name }}でピックアップ可能です",
       "pick_up_unavailable_at": "現在{{ location_name }}でピックアップは利用できません"
+    },
+        "custom_data": {
+      "vorteile_neu": "",
+      "abmessungen": "",
+      "garantie": "",
+      "montagenleitung": ""
     }
   },
   "collection": {

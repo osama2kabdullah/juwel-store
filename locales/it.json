@@ -155,6 +155,12 @@
       "pick_up_currently_unavailable": "Ritiro attualmente non disponibile",
       "pick_up_available_at": "Ritiro disponibile presso la sede {{ location_name }}",
       "pick_up_unavailable_at": "Ritiro attualmente non disponibile presso la sede {{ location_name }}"
+    },
+        "custom_data": {
+      "vorteile_neu": "",
+      "abmessungen": "",
+      "garantie": "",
+      "montagenleitung": ""
     }
   },
   "collection": {

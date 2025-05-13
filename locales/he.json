@@ -156,6 +156,12 @@
       "pick_up_currently_unavailable": "איסוף עצמי לא זמין כעת",
       "pick_up_available_at": "איסוף עצמי ב-{{ location_name }}",
       "pick_up_unavailable_at": "איסוף עצמי לא זמין כעת ב-{{ location_name }}"
+    },
+        "custom_data": {
+      "vorteile_neu": "",
+      "abmessungen": "",
+      "garantie": "",
+      "montagenleitung": ""
     }
   },
   "collection": {

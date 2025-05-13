@@ -156,6 +156,12 @@
       "pick_up_currently_unavailable": "Самовивіз зараз неможливий",
       "pick_up_available_at": "{{ location_name }} – можливий самовивіз",
       "pick_up_unavailable_at": "{{ location_name }} – самовивіз зараз неможливий"
+    },
+        "custom_data": {
+      "vorteile_neu": "",
+      "abmessungen": "",
+      "garantie": "",
+      "montagenleitung": ""
     }
   },
   "collection": {

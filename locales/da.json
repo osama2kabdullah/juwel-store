@@ -156,6 +156,12 @@
       "pick_up_currently_unavailable": "Ingen mulighed for afhentning i øjeblikket",
       "pick_up_available_at": "Mulighed for afhentning hos {{ location_name }}",
       "pick_up_unavailable_at": "Ingen mulighed for afhentning hos {{ location_name }} i øjeblikket"
+    },
+    "custom_data": {
+      "vorteile_neu": "",
+      "abmessungen": "",
+      "garantie": "",
+      "montagenleitung": ""
     }
   },
   "collection": {
