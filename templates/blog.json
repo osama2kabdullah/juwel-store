@@ -20,10 +20,55 @@
         "show_read_more": true
       }
     },
+    "multi_column_f799df": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_HdXQT6": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "",
+            "heading_tag": "h3",
+            "content": "<h2>Für einfach mehr Durchblick gemacht.<\/h2>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_W9tUR7": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "",
+            "heading_tag": "h3",
+            "content": "<p>Unter Wissenswertes präsentieren wir Ihnen smarte Lösungen für Ihren Garten und clevere Ideen für Ihr Zuhause - auf den Punkt gebracht. Lassen Sie sich von Konzepten begeistern, die Wurzeln schlagen, und Tipps geben, die Sie mühelos umsetzen können. Ob ein eigener Küchengarten, schonendes,  umweltfreundliches Wäschetrocknen oder der ideale, nährstoffreiche Kompost: Hier finden Sie Inspiration - für kleine Schritte oder große Visionen gedacht. Mit unserem Know-how und langlebigen, qualitativen Systemen für einfache, klare Anwendungen gemacht. Für Einsteiger, Profis und jeden dazwischen.<br\/><br\/><br\/><\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_HdXQT6",
+        "image_with_text_W9tUR7"
+      ],
+      "custom_css": [
+        "h2{color: #FFFFFF;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": true,
+        "columns_per_row": 2,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
     "blog_posts_zXQQLG": {
       "type": "blog-posts",
       "custom_css": [
-        "h2 {color: #FFFFFF;}"
+        "h2 {color: #ffffff;}"
       ],
       "settings": {
         "color_scheme": "scheme-3",
@@ -32,19 +77,20 @@
         "posts_count": 9,
         "stack_on_mobile": false,
         "show_category": true,
-        "show_date": false,
+        "show_date": true,
         "show_excerpt": true,
         "show_read_more": true,
         "subheading": "",
-        "title": "Wissenswertes",
+        "title": "",
         "content": "",
         "button_link": "",
-        "button_text": "View all"
+        "button_text": "alle ansehen"
       }
     }
   },
   "order": [
     "main",
+    "multi_column_f799df",
     "blog_posts_zXQQLG"
   ]
 }

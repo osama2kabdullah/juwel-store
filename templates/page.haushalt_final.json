@@ -9,20 +9,144 @@
         "page_width": "xs"
       }
     },
-    "image_with_text_overlay_axm6TW": {
-      "type": "image-with-text-overlay",
+    "slideshow_bJbhQL": {
+      "type": "slideshow",
       "settings": {
-        "color_scheme": "",
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/hg_hh.jpg",
-        "allow_transparent_header": false,
-        "reveal_on_scroll": true,
-        "remove_vertical_spacing": true,
-        "content_width": "md",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "allow_transparent_header": true,
+        "show_next_section_button": true,
+        "media_size": "auto",
+        "show_initial_transition": false,
+        "autoplay": true,
+        "autoplay_pause_on_video": true,
+        "cycle_speed": 5,
+        "background": "#000000",
+        "controls_color": "#ffffff"
+      }
+    },
+    "slideshow_wLpyEQ": {
+      "type": "slideshow",
+      "blocks": {
+        "image_caxeq4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image03_fe87b6eb-8a9a-41c9-adba-e24a428040a6.jpg",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "image_JGYixh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_wsp.jpg",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "image_xRdjBD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image08_9dce8540-42de-4f51-bab2-55a29a8465af.jpg",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "image_kxtnXA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_trockner.jpg",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_caxeq4",
+        "image_JGYixh",
+        "image_xRdjBD",
+        "image_kxtnXA"
+      ],
+      "settings": {
+        "allow_transparent_header": true,
+        "show_next_section_button": true,
+        "media_size": "auto",
+        "show_initial_transition": false,
+        "autoplay": true,
+        "autoplay_pause_on_video": true,
+        "cycle_speed": 5,
+        "background": "#000000",
+        "controls_color": "#ffffff"
       }
     },
     "multi_column_eRDPXR": {
@@ -33,7 +157,7 @@
           "settings": {
             "title": "",
             "heading_tag": "h2",
-            "content": "<h2>JUWEL Haushaltsprodukte - für praktische Leichtigkeit gemacht<\/h2>",
+            "content": "<h2>JUWEL Haushaltsprodukte - für praktische Leichtigkeit gemacht.<\/h2>",
             "link_url": "",
             "link_text": ""
           }
@@ -58,7 +182,7 @@
         "color_scheme": "",
         "separate_section_with_border": true,
         "columns_per_row": 2,
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "overlap_image": false,
         "content_alignment": "start",
         "text_alignment": "start",
@@ -78,7 +202,7 @@
             "title": "",
             "heading_tag": "h3",
             "content": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/waschespinne",
             "link_text": ""
           }
         },
@@ -89,7 +213,7 @@
             "title": "",
             "heading_tag": "h3",
             "content": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/waschetrockner",
             "link_text": ""
           }
         }
@@ -102,7 +226,7 @@
         "color_scheme": "",
         "separate_section_with_border": true,
         "columns_per_row": 2,
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "overlap_image": false,
         "content_alignment": "start",
         "text_alignment": "start",
@@ -128,7 +252,7 @@
         "image_with_text_33p6pp": {
           "type": "image_with_text",
           "settings": {
-            "title": "Wäschetrockner – für mehr Freiraum im Leben gemacht.",
+            "title": "JUWEL Wäschetrockner – für mehr Freiraum im Leben gemacht.",
             "heading_tag": "h3",
             "content": "<p>Ob Balkon, Bad oder Waschraum – unsere platzsparenden Wäschetrockner sind wahre Raumwunder. Mit cleverer Technik und zeitlosem Design schenken Sie Ihrer Wäsche genau den Platz, den sie braucht, und Ihnen mehr Freiraum zu Hause. Dank des innovativen Easy-Open-Knickscharniers und der JUWEL Leinenspannautomatik, die Leinen immer perfekt straff hält, war Wäschetrocknen nie smarter. Ob schwebend von der Decke, anmutig montiert an der Wand, schwungvoll im Raum verstellbar oder dezent in der Badewanne platziert - jedes Modell ist ein durchdachtes Meisterstück.<br\/><\/p>",
             "link_url": "",
@@ -144,7 +268,7 @@
         "color_scheme": "",
         "separate_section_with_border": true,
         "columns_per_row": 2,
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "overlap_image": false,
         "content_alignment": "start",
         "text_alignment": "start",
@@ -157,7 +281,7 @@
     "collection_list_iiqWbr": {
       "type": "collection-list",
       "blocks": {
-        "collection_JLzhJ7": {
+        "collection_mtadNN": {
           "type": "collection",
           "settings": {
             "color_scheme": "",
@@ -167,7 +291,7 @@
             "content_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "",
-            "button_text": "Wäschespinne",
+            "button_text": "WÄSCHESPINNEN",
             "button_link": "",
             "button_style": "link",
             "overlay_color": "#000000",
@@ -184,7 +308,24 @@
             "content_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "",
-            "button_text": "Decken- und Wandtrockner",
+            "button_text": "DECKENTROCKNER",
+            "button_link": "shopify:\/\/collections\/deckentrockner",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_JLzhJ7": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "standtrockner",
+            "image": "shopify:\/\/shop_images\/4011401.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "STANDTROCKNER",
             "button_link": "",
             "button_style": "link",
             "overlay_color": "#000000",
@@ -195,13 +336,30 @@
           "type": "collection",
           "settings": {
             "color_scheme": "scheme-4",
-            "collection": "standtrockner",
-            "image": "shopify:\/\/shop_images\/4010002.jpg",
+            "collection": "wandtrockner",
+            "image": "shopify:\/\/shop_images\/4013001.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "",
-            "button_text": "Standtrockner",
+            "button_text": "WANDTROCKNER",
+            "button_link": "",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_eEzGmb": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "collection": "sonstige-trockner",
+            "image": "shopify:\/\/shop_images\/4010603.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "SONSTIGE TROCKNER",
             "button_link": "",
             "button_style": "link",
             "overlay_color": "#000000",
@@ -218,7 +376,7 @@
             "content_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "",
-            "button_text": "Zubehör",
+            "button_text": "ZUBEHÖR",
             "button_link": "",
             "button_style": "link",
             "overlay_color": "#000000",
@@ -235,7 +393,7 @@
             "content_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "",
-            "button_text": "Ersatzteile",
+            "button_text": "ERSATZTEILE",
             "button_link": "",
             "button_style": "link",
             "overlay_color": "#000000",
@@ -244,9 +402,11 @@
         }
       },
       "block_order": [
-        "collection_JLzhJ7",
+        "collection_mtadNN",
         "collection_cDaXAc",
+        "collection_JLzhJ7",
         "collection_XwywRy",
+        "collection_eEzGmb",
         "collection_XfgFzf",
         "collection_dBNM7M"
       ],
@@ -259,18 +419,19 @@
         "image_size": "auto",
         "show_text_outside": true,
         "space_items": true,
-        "stack_collections": true,
+        "stack_collections": false,
         "collections_per_row_mobile": "2",
         "collections_per_row_desktop": 5,
         "subheading": "",
-        "title": "Heading offen",
+        "title": "Sortiment Haushalt",
         "content": ""
       }
     }
   },
   "order": [
     "main",
-    "image_with_text_overlay_axm6TW",
+    "slideshow_bJbhQL",
+    "slideshow_wLpyEQ",
     "multi_column_eRDPXR",
     "multi_column_AeWMyG",
     "multi_column_U7Ver4",

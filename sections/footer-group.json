@@ -71,6 +71,7 @@
         },
         "image_with_text_EcbL4T": {
           "type": "image_with_text",
+          "disabled": true,
           "settings": {
             "title": "",
             "heading_tag": "h3",
@@ -96,8 +97,18 @@
             "title": "",
             "heading_tag": "h3",
             "content": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/pages\/impressum",
             "link_text": "DOWNLOADS"
+          }
+        },
+        "image_with_text_C66TQ6": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "shopify:\/\/pages\/faq",
+            "link_text": "FAQs"
           }
         },
         "image_with_text_hYPLrY": {
@@ -116,7 +127,7 @@
             "title": "",
             "heading_tag": "h3",
             "content": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/pages\/datenschutz",
             "link_text": "IMPRESSUM"
           }
         }
@@ -126,18 +137,20 @@
         "image_with_text_EcbL4T",
         "image_with_text_dBcGFH",
         "image_with_text_kjYAb3",
+        "image_with_text_C66TQ6",
         "image_with_text_hYPLrY",
         "image_with_text_a9R4Ti"
       ],
       "custom_css": [
         ".h3 {font-size: 10pt;}",
-        "a {color: #055541;}"
+        "a {color: #fff;}",
+        ".bordered-section {background-color: rgb(5 85 65);}"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "separate_section_with_border": true,
         "columns_per_row": 6,
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "overlap_image": false,
         "content_alignment": "center",
         "text_alignment": "center",

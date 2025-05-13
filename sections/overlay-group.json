@@ -18,26 +18,24 @@
     },
     "newsletter-popup": {
       "type": "newsletter-popup",
-      "disabled": true,
       "settings": {
         "color_scheme": "",
-        "apparition_delay": 5,
+        "apparition_delay": 2,
         "show_only_on_index": true,
         "hide_for_account_holders": true,
-        "show_only_once": true,
-        "show_newsletter_form": true,
-        "title": "Signup for our newsletter",
-        "content": "Describe what your customers will receive when subscribing to your newsletter.",
-        "button_text": "Subscribe"
+        "show_only_once": false,
+        "show_newsletter_form": false,
+        "title": "Willkommen auf unserer neuen Website!",
+        "content": "Wir freuen uns, Sie auf unserer offiziellen Website mit integriertem Webshop begrüßen zu dürfen. Hier erhalten Sie direkt unsere Produkte in gewohnter Qualität und mit vollem Service. Bei Fragen stehen wir Ihnen gerne zur Verfügung.",
+        "button_text": ""
       }
     },
     "privacy-banner": {
       "type": "privacy-banner",
-      "disabled": true,
       "settings": {
         "color_scheme": "",
-        "title": "🍪 Cookie policy",
-        "content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"
+        "title": "🍪 Cookies",
+        "content": "<p>Wir verwenden Cookies und ähnliche Technologien, um dir die bestmögliche Nutzung unserer Website zu ermöglichen. Mehr Informationen findest du unter Rechtliches.<br\/><br\/><\/p>"
       }
     }
   },

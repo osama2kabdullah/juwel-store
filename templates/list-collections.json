@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-list-collections",
+      "disabled": true,
       "custom_css": [
         "p {color: #ffffff;}"
       ],
@@ -10,16 +11,402 @@
         "show_title": true,
         "collections": [],
         "collections_per_row_mobile": "1",
-        "collections_per_row_desktop": 3,
-        "image_size": "auto",
-        "content_position": "place-self-end-start text-start",
+        "collections_per_row_desktop": 4,
+        "image_size": "xs",
+        "content_position": "place-self-start text-start",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
       }
+    },
+    "collection_list_MfVgiG": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_6PaG6U": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "fruhbeet",
+            "image": "shopify:\/\/shop_images\/2022104_fcbf6a56-ef09-430d-a8c3-da2f5336cb32.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "FRÜHBEETE",
+            "button_link": "",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_tpjkMK": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "fruhbeet-zubehor",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "ZUBEHÖR",
+            "button_link": "",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_yWJ4Ft": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "fruhbeet-ersatzteile",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "ERSATZTEILE",
+            "button_link": "",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_6PaG6U",
+        "collection_tpjkMK",
+        "collection_yWJ4Ft"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image_size": "xs",
+        "show_text_outside": true,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_mobile": "1",
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "FRÜHBEETE",
+        "content": ""
+      }
+    },
+    "collection_list_HejEzF": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_mGMkcT": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "hochbeet",
+            "image": "shopify:\/\/shop_images\/2047801_b86e8961-1e46-4d2f-a974-f8035fe28ce5.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "HOCHBEETE",
+            "button_link": "",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_aVagwi": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "hochbeet-zubehor",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "ZUBEHÖR",
+            "button_link": "",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_ErfGUh": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "hochbeet-ersatzteile",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "ERSATZTEILE",
+            "button_link": "",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_mGMkcT",
+        "collection_aVagwi",
+        "collection_ErfGUh"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image_size": "xs",
+        "show_text_outside": true,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_mobile": "1",
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "HOCHBEETE",
+        "content": ""
+      }
+    },
+    "collection_list_47UL8F": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_mehaiV": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "komposter",
+            "image": "shopify:\/\/shop_images\/2017101_559c767c-9710-49fa-849e-6d7ec68d14cd.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "KOMPOSTER",
+            "button_link": "",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_6UiDwc": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "komposter-zubehor",
+            "image": "shopify:\/\/shop_images\/2017801.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "ZUBEHÖR",
+            "button_link": "",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_QPr6td": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "komposter-ersatzteile",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "ERSATZTEILE",
+            "button_link": "",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_mehaiV",
+        "collection_6UiDwc",
+        "collection_QPr6td"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image_size": "xs",
+        "show_text_outside": true,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_mobile": "1",
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "KOMPOSTER",
+        "content": ""
+      }
+    },
+    "collection_list_4JVfpi": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_Q9qeQK": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "waschespinne",
+            "image": "shopify:\/\/shop_images\/3031901_df479666-a6a6-492c-aca4-fd58d6c2c532.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "WÄSCHESPINNEN",
+            "button_link": "",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_NJHEjn": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "waschespinne-zubehor",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "ZUBEHÖR",
+            "button_link": "",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_dQNjGz": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "waschespinne-ersatzteile",
+            "image": "shopify:\/\/shop_images\/3002401_2f61b11d-2c51-4772-9dcb-824750d81448.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "ERSATZTEILE",
+            "button_link": "",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_Q9qeQK",
+        "collection_NJHEjn",
+        "collection_dQNjGz"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image_size": "xs",
+        "show_text_outside": true,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_mobile": "1",
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "WÄSCHESPINNEN",
+        "content": ""
+      }
+    },
+    "collection_list_AWkAW4": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_yVctYM": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "deckentrockner",
+            "image": "shopify:\/\/shop_images\/3004001_25fadde6-7a6d-43b7-808f-eae8e0a01641.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "DECKENTROCKNER",
+            "button_link": "",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_AxgrY3": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "standtrockner",
+            "image": "shopify:\/\/shop_images\/4011401_071dfd53-5481-4276-980a-4073f7e51e79.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "STANDTROCKNER",
+            "button_link": "",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_hbjn4w": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "wandtrockner",
+            "image": "shopify:\/\/shop_images\/4013801.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "WANDTROCKNER",
+            "button_link": "",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_KCBywa": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "collection": "waschetrockner-ersatzteile",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "ERSATZTEILE",
+            "button_link": "",
+            "button_style": "link",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_yVctYM",
+        "collection_AxgrY3",
+        "collection_hbjn4w",
+        "collection_KCBywa"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image_size": "xs",
+        "show_text_outside": true,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_mobile": "1",
+        "collections_per_row_desktop": 4,
+        "subheading": "",
+        "title": "WÄSCHETROCKNER",
+        "content": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "collection_list_MfVgiG",
+    "collection_list_HejEzF",
+    "collection_list_47UL8F",
+    "collection_list_4JVfpi",
+    "collection_list_AWkAW4"
   ]
 }

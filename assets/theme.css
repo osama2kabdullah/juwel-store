@@ -6,7 +6,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 html {
   -webkit-text-size-adjust: 100%;
   tab-size: 4;
@@ -21,6 +20,10 @@ body {
   letter-spacing: var(--text-letter-spacing);
   margin: 0;
   position: relative;
+}
+
+.fetter {
+  font-weight: bold;
 }
 
 hr {

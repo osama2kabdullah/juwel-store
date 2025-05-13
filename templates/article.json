@@ -4,8 +4,8 @@
       "type": "main-article",
       "settings": {
         "color_scheme": "",
-        "show_image": true,
-        "enable_parallax": true,
+        "show_image": false,
+        "enable_parallax": false,
         "image_size": "small",
         "content_width": "lg",
         "show_date": true,

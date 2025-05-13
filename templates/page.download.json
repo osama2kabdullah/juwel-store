@@ -9,45 +9,34 @@
         "page_width": "xs"
       }
     },
-    "multi_column_eRDPXR": {
+    "multi_column_fmLFzX": {
       "type": "multi-column",
       "blocks": {
-        "image_with_text_t49yFj": {
-          "type": "image_with_text",
-          "settings": {
-            "title": "",
-            "heading_tag": "h2",
-            "content": "<h2>JUWEL Gartenprodukte - für Ihren Weg zur Natur gedacht.<\/h2>",
-            "link_url": "",
-            "link_text": ""
-          }
-        },
-        "image_with_text_eVnkbP": {
+        "image_with_text_e6XwYe": {
           "type": "image_with_text",
           "settings": {
             "title": "",
             "heading_tag": "h3",
-            "content": "<p>Ein Garten ist ein Ort, an dem Leben entsteht und sich entfaltet, an dem Kreativität blüht und gedeiht und an dem wahre Wertschätzung für unsere Natur entsteht. Die JUWEL Gartenprodukte sind für den Kreislauf der Natur gemacht. Mit unseren Frühbeeten, Hochbeeten und Kompostern ermöglichen wir eine echte Verbindung zwischen Mensch und Umwelt. Ob bei der behüteten Anzucht von Jungpflanzen, beim Anbau von saisonalem Gemüse und frischen Kräutern oder bei der Kompostierung wertvoller Rohstoffe, die Ihrem Grün wieder neues Leben schenken.<\/p>",
+            "content": "",
             "link_url": "",
             "link_text": ""
           }
         }
       },
       "block_order": [
-        "image_with_text_t49yFj",
-        "image_with_text_eVnkbP"
+        "image_with_text_e6XwYe"
       ],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "columns_per_row": 2,
+        "columns_per_row": 3,
         "stack_on_mobile": false,
         "overlap_image": false,
-        "content_alignment": "start",
-        "text_alignment": "start",
+        "content_alignment": "center",
+        "text_alignment": "center",
         "spacing": "md",
         "subheading": "",
-        "title": "",
+        "title": "Zum Stöbern gedacht.",
         "content": ""
       }
     },
@@ -153,6 +142,7 @@
         "image_with_text_33p6pp",
         "image_with_text_7kk4ta"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -278,23 +268,23 @@
         "content": ""
       }
     },
-    "image_with_text_c4tFDB": {
+    "image_with_text_WU3E38": {
       "type": "image-with-text",
       "blocks": {
-        "subheading_LGRU4w": {
+        "subheading_HqQkKU": {
           "type": "subheading",
           "settings": {
             "text": "Downloads"
           }
         },
-        "heading_aX8K69": {
+        "heading_MHAXdC": {
           "type": "heading",
           "settings": {
-            "text": "Produktkatalog",
+            "text": "Gartenfibel",
             "heading_tag": "h1"
           }
         },
-        "richtext_xwWixE": {
+        "richtext_xQpY3M": {
           "type": "richtext",
           "settings": {
             "content": "<p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0745\/1171\/2563\/files\/JUWEL_Produktkatalog_DE.pdf?v=1743001095\" target=\"_blank\" title=\"PDF DOWNLOAD\">PDF DOWNLOAD<\/a><\/p>"
@@ -302,10 +292,11 @@
         }
       },
       "block_order": [
-        "subheading_LGRU4w",
-        "heading_aX8K69",
-        "richtext_xwWixE"
+        "subheading_HqQkKU",
+        "heading_MHAXdC",
+        "richtext_xQpY3M"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -318,6 +309,7 @@
     },
     "blog_posts_AzqirT": {
       "type": "blog-posts",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -335,44 +327,6 @@
         "button_text": "View all"
       }
     },
-    "image_with_text_RhiRPE": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_6iVAXM": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_nbX3nj": {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_6gHPTc": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_6iVAXM",
-        "heading_nbX3nj",
-        "richtext_6gHPTc"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image": "shopify:\/\/shop_images\/Produktkatalog_Titel.jpg",
-        "reveal_on_scroll": true,
-        "image_position": "end",
-        "content_width": "lg",
-        "remove_vertical_spacing": true
-      }
-    },
     "slideshow_ydA4zW": {
       "type": "slideshow",
       "settings": {
@@ -386,18 +340,134 @@
         "background": "#000000",
         "controls_color": "#ffffff"
       }
+    },
+    "multi_column_PULW4e": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_3nPUhL": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/katalog.jpg",
+            "title": "Produktkatalog",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0745\/1171\/2563\/files\/JUWEL_Produktkatalog_DE_f032ad19-0885-428c-9e36-9ff324727f06.pdf?v=1743506422",
+            "link_text": ""
+          }
+        },
+        "image_with_text_jBbP49": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kuechengarten.jpg",
+            "title": "Küchengarten Broschüre",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0745\/1171\/2563\/files\/Kuechengarten_Fibel_210x145.pdf?v=1743509092",
+            "link_text": ""
+          }
+        },
+        "image_with_text_FWLC4H": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fruehbeet.jpg",
+            "title": "Frühbeete",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0745\/1171\/2563\/files\/Produktgruppe_FB_A5.pdf?v=1743507830",
+            "link_text": ""
+          }
+        },
+        "image_with_text_RPGpCr": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/timber.jpg",
+            "title": "Hochbeete",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0745\/1171\/2563\/files\/Folder_A5_951-05-24_hochbeet.pdf?v=1743507831",
+            "link_text": ""
+          }
+        },
+        "image_with_text_LcJhP6": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/komposter.jpg",
+            "title": "Komposter",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0745\/1171\/2563\/files\/Folder_1021-02-24_komposter.pdf?v=1743507831",
+            "link_text": ""
+          }
+        },
+        "image_with_text_bfBF9L": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wsp.jpg",
+            "title": "Wäschespinnen",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0745\/1171\/2563\/files\/Folder_1045-02-24_WSP_A5.pdf?v=1743507831",
+            "link_text": ""
+          }
+        },
+        "image_with_text_bhF66g": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trockner.jpg",
+            "title": "Wäschetrockner",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0745\/1171\/2563\/files\/Folder_1037-03-24_Trockner_A5.pdf?v=1743507831",
+            "link_text": ""
+          }
+        },
+        "image_with_text_mG4qLW": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "title": "Column title",
+            "heading_tag": "h3",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_3nPUhL",
+        "image_with_text_jBbP49",
+        "image_with_text_FWLC4H",
+        "image_with_text_RPGpCr",
+        "image_with_text_LcJhP6",
+        "image_with_text_bfBF9L",
+        "image_with_text_bhF66g",
+        "image_with_text_mG4qLW"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
     }
   },
   "order": [
     "main",
-    "multi_column_eRDPXR",
+    "multi_column_fmLFzX",
     "image_with_text_overlay_axm6TW",
     "multi_column_AeWMyG",
     "multi_column_U7Ver4",
     "collection_list_iiqWbr",
-    "image_with_text_c4tFDB",
+    "image_with_text_WU3E38",
     "blog_posts_AzqirT",
-    "image_with_text_RhiRPE",
-    "slideshow_ydA4zW"
+    "slideshow_ydA4zW",
+    "multi_column_PULW4e"
   ]
 }

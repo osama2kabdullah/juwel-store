@@ -35,6 +35,10 @@
             "progress_bar_max_value": 50
           }
         },
+        "sku_LCBFrw": {
+          "type": "sku",
+          "settings": {}
+        },
         "separator_47NUkY": {
           "type": "separator",
           "settings": {}
@@ -93,7 +97,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Abmessungen: {{ product.metafields.custom.abmessungen.value }}<\/p>"
+            "text": "<p>AbmessungeN: {{ product.metafields.custom.abmessungen.value }}<\/p>"
           }
         },
         "text_JGkpL6": {
@@ -207,8 +211,8 @@
           "settings": {
             "show_below_gallery": false,
             "icon": "none",
-            "title": "Garantie",
-            "content": "<p>{{ product.metafields.custom.garantie.value }}<\/p>",
+            "title": "",
+            "content": "<p>Garantie: {{ product.metafields.custom.garantie.value }}<\/p>",
             "liquid": "",
             "page": ""
           }
@@ -230,6 +234,7 @@
         "description",
         "price",
         "inventory_8iFwd9",
+        "sku_LCBFrw",
         "separator_47NUkY",
         "variant_picker",
         "quantity_selector",
@@ -265,6 +270,23 @@
         "enable_video_looping": true,
         "enable_image_zoom": true,
         "max_image_zoom_level": 3
+      }
+    },
+    "related_products_FnNHQD": {
+      "type": "related-products",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": true,
+        "recommendations_count": 10,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "Ähnliche Produkte",
+        "content": ""
       }
     },
     "logo_list_8FFzaY": {
@@ -313,6 +335,7 @@
         "logo_rcqk8G",
         "logo_QDF4Bn"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -334,13 +357,14 @@
             "products_count": 8,
             "title": "Zubehör",
             "link_url": "",
-            "link_text": "View all"
+            "link_text": "alle ansehen"
           }
         }
       },
       "block_order": [
         "collection_AwhGzA"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
@@ -389,6 +413,7 @@
         "testimonial_AwxzVx",
         "testimonial_eabhGV"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "separate_section_with_border": true,
@@ -442,6 +467,7 @@
         "image_with_text_MyHgAG",
         "image_with_text_qz3YFh"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "image_position": "start",
@@ -468,6 +494,7 @@
       "block_order": [
         "collection_PhJLHj"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -519,6 +546,7 @@
         "question_rhb7Eg",
         "question_VpypLX"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -528,25 +556,9 @@
         "content": ""
       }
     },
-    "related_products_FnNHQD": {
-      "type": "related-products",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "recommendations_count": 10,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "",
-        "title": "Ähnliche Produkte",
-        "content": ""
-      }
-    },
     "blog_posts_Rkg3TG": {
       "type": "blog-posts",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -568,13 +580,13 @@
   "order": [
     "custom-product-info",
     "main",
+    "related_products_FnNHQD",
     "logo_list_8FFzaY",
     "featured_collections_BWpm3F",
     "testimonials_hAJDKj",
     "images_with_text_scroll_ygzPtf",
     "featured_collections_6Wb9at",
     "faq_Urg4nG",
-    "related_products_FnNHQD",
     "blog_posts_Rkg3TG"
   ]
 }

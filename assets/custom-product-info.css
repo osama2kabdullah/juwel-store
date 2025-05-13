@@ -33,7 +33,8 @@ product-template .metadata-area .list-container.first ul {
 }
 
 product-template .metadata-area .list-container.first ul li {
-  list-style: inside;
+    /* list-style: inside; */
+    margin-left: 20px;
 }
 product-template .actual-info-area {
   display: flex;
@@ -42,7 +43,6 @@ product-template .actual-info-area {
 }
 product-template .metadata-area {
   display: flex;
-  flex-wrap: wrap;
   gap: 10%;
 }
 product-template .price-add-btn-area {
@@ -59,14 +59,18 @@ product-template .info-images-area {
 
 /* accordion */
 product-template .list-container.first .accordion {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid;
+  border-color:#055541;
+  width: 800px;
 }
 product-template .accordion-header {
-  border-top: 1px solid black;
+  border-top: 1px solid;
+  border-color:#055541;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-weight: bold;
+  color: #055541;
   cursor: pointer;
   padding: 10px 0;
 }
@@ -80,7 +84,9 @@ product-template .accordion-content {
   padding: 10px;
   margin-top: 0px;
   padding-top: 0px;
+  list-style-image: url(https://cdn.shopify.com/s/files/1/0745/1171/2563/files/spark0.14.png);
 }
+
 product-template .active + .accordion-content {
   display: block;
 }
@@ -143,6 +149,9 @@ product-template #customthumbnail-slider .splide__slide.is-active {
     flex-direction: column-reverse;
     gap: 30px;
   }
+  product-template .list-container.first .accordion {
+  border-bottom: 1px solid black;
+  max-width: 350px;
 }
 
 /* Tablet */

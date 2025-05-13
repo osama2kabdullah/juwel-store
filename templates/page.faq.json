@@ -3,41 +3,89 @@
     "faq": {
       "type": "faq",
       "blocks": {
-        "category": {
-          "type": "category",
-          "settings": {
-            "title": "Order"
-          }
-        },
         "question-1": {
           "type": "question",
           "settings": {
-            "question": "Do you ship overseas?",
-            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "question": "<strong>Vorteile<\/strong>",
+            "answer": "<ul><li>Individuelle und kompetente Beratung durch unseren  Kundenservice<\/li><li>Direkter Einkauf beim Hersteller<\/li><li>Vollständige Sortimentsverfügbarkeit<\/li><li>10 Tage Rückgaberecht<\/li><li>Vielfältige Zahlungsmöglichkeiten<\/li><\/ul>"
           }
         },
         "question-2": {
           "type": "question",
           "settings": {
-            "question": "How long will it take to get my orders?",
-            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+            "question": "<strong>Lieferung<\/strong>",
+            "answer": "<p>Unsere Produkte werden je nach Artikel über verschiedene Versanddienstleister (Post, UPS, DPD oder Spedition) direkt aus unserem Lager versendet. Die Lieferzeit beträgt in der Regel 5–10 Werktage ab Bestelleingang.<\/p><p>Wir liefern derzeit ausschließlich nach Österreich und Deutschland. Für Lieferanfragen in andere Länder kontaktieren Sie bitte direkt unsere <a href=\"mailto:verkauf@juwel.com\">Verkaufsabteilung<\/a>.<\/p>"
           }
         },
         "question-3": {
           "type": "question",
           "settings": {
-            "question": "Any question?",
-            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+            "question": "<strong>Versandkosten<\/strong>",
+            "answer": "<p>Ab einem Bestellwert von 20,- € übernehmen wir die Versandkosten für Sie. Liegt der Bestellwert darunter, fällt eine Versandkostenpauschale von 6,90 € an. Diese wird Ihnen vor Abschluss der Bestellung angezeigt.<\/p>"
+          }
+        },
+        "question_aWVeNE": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Rücksendeadressen<\/strong>",
+            "answer": "<p>Ihre Rücksendung können Sie die an unten angeführten Adressen übermitteln:<\/p><ul><li>Für Kunden aus Deutschland:<br\/>JUWEL Einlieferungslager<br\/>Bahnhofstrasse 11<br\/>D-82490 Farchant<br\/><\/li><li>Für Kunden aus Österreich und sonstigen Ländern:<br\/>JUWEL H. Wüster GmbH<br\/>Industriezone 19<br\/>A-6460 Imst<\/li><\/ul><p>Bei Fragen zur Rücksendung hilft Ihnen unser <a href=\"mailto:service@juwel.com\">Kundenservice<\/a> gerne weiter.<\/p>"
+          }
+        },
+        "question_k4TN6w": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Zahlarten<\/strong>",
+            "answer": "<p>Folgende Zahlungsmethoden stehen Ihnen zur Verfügung:<\/p><ul><li>Kreditkarte (Visa, Mastercard,      Maestro, American Express, UnionPay)<\/li><li>ShopPay, PayPal, Google Pay<\/li><li>Klarna (Kauf auf Rechnung oder Sofortüberweisung)<\/li><li>eps-Überweisung (für Kunden in Österreich)<\/li><li>Vorauskasse<\/li><\/ul>"
+          }
+        },
+        "question_F9Rdib": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Bestellvorgang & Bestellbestätigung<\/strong>",
+            "answer": "<p>Nach Abschluss Ihrer Bestellung erhalten Sie eine automatische Bestellbestätigung per E-Mail.<br\/>Sobald Ihre Bestellung versendet wurde, erhalten Sie eine Versandbestätigung (sofern verfügbar) vom betreffenden Versanddienstleister.<\/p>"
+          }
+        },
+        "question_j8X9My": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Kundenkonto<\/strong>",
+            "answer": "<p>Mit einem Kundenkonto haben Sie jederzeit Zugriff auf Ihre Bestellungen, Rechnungen und persönlichen Daten. Natürlich können Sie auch ohne Kundenkonto als Gast bestellen.<\/p>"
+          }
+        },
+        "question_FfRtDF": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Reklamation oder beschädigte Lieferung<\/strong>",
+            "answer": "<p>Sollte ein Artikel beschädigt bei Ihnen ankommen oder ein Teil fehlen, wenden Sie sich bitte umgehend an unseren <a href=\"mailto:service@juwel.com\">Kundenservice<\/a>. Wir kümmern uns schnellstmöglich um Ersatz oder eine Lösung.<\/p>"
+          }
+        },
+        "question_V4d4qY": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Kontakt & Kundenservice<\/strong>",
+            "answer": "<p>Sie haben noch Fragen?<\/p><p>Dann nutzen Sie unser <a href=\"\/pages\/contact\" title=\"Kontakt\">Kontaktformular <\/a>oder wenden Sie sich direkt an unseren <a href=\"mailto:service@juwel.com\">Kundenservice<\/a>. Wir sind gerne für Sie da!<\/p>"
           }
         }
       },
       "block_order": [
-        "category",
         "question-1",
         "question-2",
-        "question-3"
+        "question-3",
+        "question_aWVeNE",
+        "question_k4TN6w",
+        "question_F9Rdib",
+        "question_j8X9My",
+        "question_FfRtDF",
+        "question_V4d4qY"
       ],
-      "settings": {}
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "",
+        "title": "Für Ihre Fragen gedacht.",
+        "content": ""
+      }
     }
   },
   "order": [

@@ -1,110 +1,136 @@
 <style>
-          :root {
-            --header-is-sticky: {% if section.settings.enable_sticky %}1{% else %}0{% endif %};
-          }
-
-          #shopify-section-{{ section.id }} {
-            --header-grid: "primary-nav logo secondary-nav" / minmax(0, 1fr) auto minmax(0, 1fr);
-            --header-padding-block: 1rem;
-            --header-transparent-header-text-color: {{ section.settings.transparent_header_text_color.rgb }};
-            --header-separation-border-color: {% if section.settings.show_separation_border %}{{ section.settings.color_scheme.settings.text_color.rgb }} / 0.15{% else %}0 0 0 / 0{% endif %};
-
-            position: relative;
-            z-index: 4;
-          }
-
-          @media screen and (min-width: 700px) {
-            #shopify-section-{{ section.id }} {
-              --header-padding-block: {% if section.settings.reduce_padding %}1.2rem{% else %}1.6rem{% endif %};
-            }
-          }
-
-          @media screen and (min-width: 1000px) {
-            #shopify-section-{{ section.id }} {
-              {%- case section.settings.layout -%}
-                {%- when 'logo_left_navigation_inline' -%}
-                  --header-grid: "logo primary-nav secondary-nav" / auto minmax(0, 1fr) auto;
-
-                {%- when 'logo_left_navigation_center' -%}
-                  --header-grid: "logo primary-nav secondary-nav" / minmax(max-content, 1fr) auto minmax(max-content, 1fr);
-
-                {%- when 'logo_center_navigation_below' -%}
-                  --header-grid: ". logo secondary-nav" "primary-nav primary-nav primary-nav" / minmax(0, 1fr) auto minmax(0, 1fr);
-              {%- endcase -%}
-            }
-          }
-
-          {%- if section.settings.enable_sticky -%}
-            #shopify-section-{{ section.id }} {
-              position: sticky;
-              top: 0;
+            :root {
+              --header-is-sticky: {% if section.settings.enable_sticky %}1{% else %}0{% endif %};
             }
 
-            .shopify-section--announcement-bar ~ #shopify-section-{{ section.id }} {
-              top: calc(var(--announcement-bar-is-sticky, 0) * var(--announcement-bar-height, 0px));
-            }
-          {%- endif -%}
-
-          {%- if section.settings.logo != blank -%}
             #shopify-section-{{ section.id }} {
-              --header-logo-width: {{ section.settings.logo_mobile_max_width }}px;
+              --header-grid: "primary-nav logo secondary-nav" / minmax(0, 1fr) auto minmax(0, 1fr);
+              --header-padding-block: 1rem;
+              --header-transparent-header-text-color: {{ section.settings.transparent_header_text_color.rgb }};
+              --header-separation-border-color: {% if section.settings.show_separation_border %}{{ section.settings.color_scheme.settings.text_color.rgb }} / 0.15{% else %}0 0 0 / 0{% endif %};
+
+              position: relative;
+              z-index: 4;
             }
 
             @media screen and (min-width: 700px) {
               #shopify-section-{{ section.id }} {
-                --header-logo-width: {{ section.settings.logo_max_width }}px;
+                --header-padding-block: {% if section.settings.reduce_padding %}1.2rem{% else %}1.6rem{% endif %};
               }
             }
-          {%- endif -%}
 
-/* Custom CSS */
+            @media screen and (min-width: 1000px) {
+              #shopify-section-{{ section.id }} {
+                {%- case section.settings.layout -%}
+                  {%- when 'logo_left_navigation_inline' -%}
+                    --header-grid: "logo primary-nav secondary-nav" / auto minmax(0, 1fr) auto;
 
-    .logo_search_opt {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 20px 0;
-    }
-    .search-box {
-      flex: 1;
-      margin: 0 20px;
-      position: relative;
-      max-width: 500px;
-      min-width: 200px;
-    }
-    .search-box input::placeholder {
+                  {%- when 'logo_left_navigation_center' -%}
+                    --header-grid: "logo primary-nav secondary-nav" / minmax(max-content, 1fr) auto minmax(max-content, 1fr);
+
+                  {%- when 'logo_center_navigation_below' -%}
+                    --header-grid: ". logo secondary-nav" "primary-nav primary-nav primary-nav" / minmax(0, 1fr) auto minmax(0, 1fr);
+                {%- endcase -%}
+              }
+            }
+
+            {%- if section.settings.enable_sticky -%}
+              #shopify-section-{{ section.id }} {
+                position: sticky;
+                top: 0;
+              }
+
+              .shopify-section--announcement-bar ~ #shopify-section-{{ section.id }} {
+                top: calc(var(--announcement-bar-is-sticky, 0) * var(--announcement-bar-height, 0px));
+              }
+            {%- endif -%}
+
+            {%- if section.settings.logo != blank -%}
+              #shopify-section-{{ section.id }} {
+                --header-logo-width: {{ section.settings.logo_mobile_max_width }}px;
+              }
+
+              @media screen and (min-width: 700px) {
+                #shopify-section-{{ section.id }} {
+                  --header-logo-width: {{ section.settings.logo_max_width }}px;
+                }
+              }
+            {%- endif -%}
+
+  /* Custom CSS */
+
+      .logo_search_opt {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 20px 0;
+      }
+      .search-box {
+        flex: 1;
+        margin: 0 20px;
+        position: relative;
+        max-width: 500px;
+        min-width: 200px;
+      }
+      .search-box input::placeholder {
+        color: black;
+        opacity: .6;
+      }
+      .search-box input {
+      width: 100%;
+      padding: 10px 15px;
+      border: 2px solid #055541;
+      border-radius: 25px;
+      font-size: 14px;
       color: black;
-      opacity: .6;
-    }
-    .search-box input {
-    width: 100%;
-    padding: 10px 15px;
-    border: 2px solid #ccc;
-    border-radius: 25px;
-    font-size: 14px;
-    color: black;
-    }
-    .tagline {
-    font-size: 25px;
-    /* color: #065540; */
-    }
-    .navigation_area.container {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 15px;
-    }
-    .nav-right_icons {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    }
-    @media screen and (max-width: 700px) {
-    .logo_search_opt {
-      justify-content: center;
-      gap: 10px;
+      }
+      .tagline {
+      font-size: 25px;
+      /* color: #065540; */
+      }
+    .tagline:after {
+      content: url(/cdn/shop/files/spark0.18.png);
+      margin-left: 7px;
   }
+      .navigation_area.container {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 15px;
+      }
+      .nav-right_icons {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      }
+      @media screen and (max-width: 700px) {
+      .logo_search_opt {
+        justify-content: center;
+        gap: 10px;
     }
+      }
+
+/* Conditional header CSS */
+      {% unless template == 'index' or template == 'product' %}
+      x-header.header.color-scheme.color-scheme--scheme-3 {
+      background-color: white;
+      color: rgb(5 85 65);
+      }
+
+      button.localization-toggle.heading.text-xxs.link-faded {
+    color: rgb(5 85 65);
+}
+        #shopify-section-sections--24234579755315__multi_column_Kwe6My .bordered-section {
+    background-color: white!important;
+}
+        .prose.text-center a {
+    color: rgb(5 85 65)!important;
+}
+      {% endunless %}
+      ul#customthumbnail-slider-list {
+    list-style: none;
+}
+
 </style>
 
 <height-observer variable="header">
@@ -120,6 +146,9 @@
         {%- capture widths -%}{{ section.settings.logo_max_width | times: 2 | at_most: section.settings.logo.width }}, {{ section.settings.logo_max_width | times: 3 | at_most: section.settings.logo.width }}{%- endcapture -%}
 
         <span class="sr-only">{{ shop.name }}</span>
+  {%- unless template == 'index' or template == 'product' -%}
+        {{- section.settings.green_logo | image_url: width: section.settings.logo.width | image_tag: sizes: sizes, widths: widths, class: 'header__logo-image' -}}
+    {%- else -%}
         {{- section.settings.logo | image_url: width: section.settings.logo.width | image_tag: sizes: sizes, widths: widths, class: 'header__logo-image' -}}
 
         {%- if section.settings.transparent_logo -%}
@@ -127,6 +156,7 @@
         {%- endif -%}
       {%- else -%}
         <span class="header__logo-text h5">{{ shop.name }}</span>
+  {%- endunless -%}
       {%- endif -%}
     {%- endcapture -%}
 
@@ -384,6 +414,11 @@
       "id": "logo",
       "label": "t:global.image.image",
       "info": "t:sections.header.logo_size_recommendation"
+    },
+    {
+      "type": "image_picker",
+      "id": "green_logo",
+      "label": "Green logo"
     },
     {
       "type": "range",

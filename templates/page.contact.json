@@ -11,11 +11,42 @@
     },
     "contact-form": {
       "type": "contact",
+      "blocks": {
+        "text_z6F9Yq": {
+          "type": "text",
+          "settings": {
+            "title": "Straße & Nr.",
+            "use_long_text": false,
+            "required": true
+          }
+        },
+        "text_jTaehL": {
+          "type": "text",
+          "settings": {
+            "title": "PLZ & Ort",
+            "use_long_text": false,
+            "required": true
+          }
+        },
+        "text_KzHAMR": {
+          "type": "text",
+          "settings": {
+            "title": "Land",
+            "use_long_text": false,
+            "required": true
+          }
+        }
+      },
+      "block_order": [
+        "text_z6F9Yq",
+        "text_jTaehL",
+        "text_KzHAMR"
+      ],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
         "subheading": "",
-        "title": "Schreiben Sie uns",
+        "title": "Für Ihre Anliegen gedacht.",
         "content": ""
       }
     }

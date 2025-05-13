@@ -14,13 +14,19 @@
         {{- product_title -}}
       </h1>
       <p>
-        {% for collection in product.collections %}
-          <a href="{{ collection.url }}" class="text-link">{{ collection.title }}</a>
-          {% unless forloop.last %} , {% endunless %}
-        {% endfor %}
-      </p>
+
+        {% if product.metafields.custom.subheading.value %}
+              <div class="text-link">{{ product.metafields.custom.subheading | metafield_tag }}
+                </div>
+            {% endif %}
+             </p>
     </div>
-    <p>({{ product.created_at | date: '%B %d, %Y' }})</p>
+    <h4">
+     {% if product.metafields.custom.artnr.value %}
+              <div class="text-link">Art.-Nr.: {{ product.metafields.custom.artnr | metafield_tag }}
+                </div>
+            {% endif %}
+    </h4>
   </div>
   <!-- product info with images -->
   <div class="info-images-area">
@@ -153,7 +159,7 @@
           <div class="accordion">
             {% if product.metafields.custom.vorteile_neu.value %}
               <div class="accordion-item">
-                <div class="accordion-header">Vorteile</div>
+                <div class="accordion-header">Vorteile auf einen Blick</div>
                 <div class="accordion-content">
                   {{ product.metafields.custom.vorteile_neu | metafield_tag }}
                 </div>
@@ -167,7 +173,35 @@
                 </div>
               </div>
             {% endif %}
-            {% if product.metafields.custom.garantie.value %}
+                       
+            {% if product.metafields.custom.variabel1_heading.value %}
+              <div class="accordion-item">
+                <div class="accordion-header">{{ product.metafields.custom.variabel1_heading | metafield_tag | strip_html }}</div>
+                <div class="accordion-content">
+                  {{ product.metafields.custom.variabel1_inhalt | metafield_tag }}
+                </div>
+              </div>
+            {% endif %}
+
+            {% if product.metafields.custom.variabel2_heading.value %}
+              <div class="accordion-item">
+                <div class="accordion-header">{{ product.metafields.custom.variabel2_heading | metafield_tag | strip_html }}</div>
+                <div class="accordion-content">
+                  {{ product.metafields.custom.variabel2_inhalt | metafield_tag }}
+                </div>
+              </div>
+            {% endif %}
+
+             {% if product.metafields.custom.variabel3_heading.value %}
+              <div class="accordion-item">
+                <div class="accordion-header">{{ product.metafields.custom.variabel3_heading | metafield_tag | strip_html }}</div>
+                <div class="accordion-content">
+                  {{ product.metafields.custom.variabel3_inhalt | metafield_tag }}
+                </div>
+              </div>
+            {% endif %}
+
+             {% if product.metafields.custom.garantie.value %}
               <div class="accordion-item">
                 <div class="accordion-header">Garantie</div>
                 <div class="accordion-content">
@@ -176,18 +210,10 @@
               </div>
             {% endif %}
 
-            {% for variable in product.metafields.custom.variabel_list.value -%}
-              <div class="accordion-item">
-                <div class="accordion-header">{{ variable.variabel_heading }}</div>
-                <div class="accordion-content">
-                  {{ variable.variabel_inhalt}}
-                </div>
-              </div>
-            {%- endfor %}
-            
+          {% comment %}
             {% if product.metafields.custom.montagenleitung.value %}
               <div class="accordion-item">
-                <div class="accordion-header">Montagenleitung</div>
+                <div class="accordion-header">Montageanleitung</div>
                 <div class="accordion-content">
                   <a style="display: flex;align-items: center;gap: 10px;text-decoration: underline;" href="{{ product.metafields.custom.montagenleitung.value.url }}" target="_blank">
                     <img src="{{ product.metafields.custom.montagenleitung.value.preview_image | img_url: 'icon' }}" alt="{{ product.metafields.custom.montagenleitung.value.alt }}">
@@ -195,7 +221,24 @@
                   </a>
                 </div>
               </div>
+            {% endif %} 
+          {% endcomment %}
+
+            {% if product.metafields.custom.montagenleitung.value %}
+              {% assign file_url = product.metafields.custom.montagenleitung.value.url %}          
+              {% assign file_name = file_url | split: '/' | last | split: '?' | first %}          
+              <div class="accordion-item">
+                <div class="accordion-header">Montageanleitung</div>
+                <div class="accordion-content">
+                  <a style="display: flex;align-items: center;gap: 10px;text-decoration: underline;" href="{{ file_url }}" target="_blank">
+                    <img src="{{ product.metafields.custom.montagenleitung.value.preview_image | img_url: 'icon' }}" alt="{{ file_name }}">
+                    <p>{{ file_name }}</p>
+                  </a>
+                </div>
+              </div>
             {% endif %}
+
+
           </div>
 
         </div>
