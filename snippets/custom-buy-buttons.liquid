@@ -46,7 +46,7 @@
       </select>
 
       <div style="display: flex;align-items: baseline;gap: 20px;border: 1px solid;padding: 0 10px 0px 20px;border-radius: 50px;">
-        <p>MENGE</p>
+        <p style="text-transform: uppercase;">{{ "sections.quick_order_list.quantity" | t }}</p>
         <select name="quantity" id="quantity-menge">
           {% for i in (1..5) %}
             <option value="{{ i }}">{{ i }}</option>
