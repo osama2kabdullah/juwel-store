@@ -17,7 +17,7 @@ product-rerender .title-area {
   padding-bottom: 30px;
 }
 product-rerender .metadata-area .list-container {
-  width: 40%;
+  width: 49%;
 }
 product-rerender .metadata-area .list-container ul li {
   padding: 5px 0;
@@ -43,7 +43,7 @@ product-rerender .actual-info-area {
 }
 product-rerender .metadata-area {
   display: flex;
-  gap: 10%;
+  gap: 2%;
 }
 product-rerender .price-add-btn-area {
   display: flex;

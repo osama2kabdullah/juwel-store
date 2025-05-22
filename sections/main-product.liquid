@@ -131,7 +131,7 @@
           </div>
           <!-- extra info with metafield -->
           <div class="metadata-area">
-            <div class="list-container first">
+            <div style="{% if product.metafields.custom.right_side_list == blank %}width: 100%;{% endif %}"lass="list-container first">
               <!-- accordion -->
 
               {% comment %}
@@ -235,11 +235,12 @@
                 {% endif %}
               </div>
             </div>
-            <div class="list-container second">
-              <!-- extyra list -->
-
-              {{ product.metafields.custom.right_side_list | metafield_tag }}
-            </div>
+            {% if product.metafields.custom.right_side_list != blank %}
+              <div class="list-container second">
+                <!-- extyra list -->
+                {{ product.metafields.custom.right_side_list | metafield_tag }}
+              </div>
+            {% endif %}
           </div>
         </div>
         
